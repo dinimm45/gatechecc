@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Card Designer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs@gh-pages/qrcode.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap library -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <div id="app" class="container">
+        <div class="inputs-container">
+            <input type="number" pattern="\d*" maxlength="15" placeholder="Phone Number" id="phoneNumber"
+                v-model="phoneNumber" />
+        </div>
+        <div class="range-container">
+            <label for="vol" class="range-label">How many tickets would you like?</label>
+            <input type="range" id="vol" name="vol" min="0" max="200" v-model="rangeValue" class="range-slider">
+            <p class="range-count">Tickets selected: <span class="range-value">{{ rangeValue }}</span></p>
+        </div>
+
+
+        <div class="inputs-container">
+            <label for="imageFile" class="custom-file-upload">
+                Upload design
+            </label>
+            <input type="file" id="imageFile" ref="file" @change="handleFileUpload" style="display: none;" />
+        </div>
+        <div class="card card-preview" :style="cardStyle">
+            <div class="qrcode-container p-3 d-flex align-items-end justify-content-bottom">
+                <div id="qrcode"></div>
+                <!-- <p :style="qrtextStyle">{{ qrtext }}</p> -->
+            </div>
+        </div>
+        <div class="inputs-container">
+            <button class="btn btn-primary" @click="generateQRCode" :disabled="isButtonDisabled">Create your
+                invitations</button>
+        </div>
+    </div>
+    <!-- START ADVERTISER: Aliexpress EU from awin.com -->
+    <div class="bottom-banner py-3 text-center">
+        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3057676&v=21887&q=429842&r=1019293">
+        </a>
+    </div>
+    <footer class="footer">
+        <div class="containerr">
+            <p>© 2023 Gatechecc. All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+
+    <!-- END ADVERTISER: Aliexpress EU from awin.com -->
+
+    <button id="download" @click="downloadCards" style="display: none;">Download Cards</button>
+
+
+
+    <script src="obfustaced/card.js"> </script>
+
+
+</body>
+
+
+</html>

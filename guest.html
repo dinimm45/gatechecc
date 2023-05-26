@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Display Your Invitation Cards</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8255021700561730"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap library -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #E74E35;
+            /* update color to provided theme */
+            --danger-color: #dc3545;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #212529;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 960px;
+        }
+
+        .card {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+            height: 600px;
+            overflow: hidden;
+            border: 1px solid var('black');
+            /* update border to theme color */
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+        }
+
+        .text-danger {
+            color: var(--danger-color) !important;
+        }
+
+        #qrCodeImage {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* added class for input */
+        .qr-input {
+            border: 1px solid var(--primary-color);
+        }
+
+        /* update h1 color */
+        h1 {
+            color: var(--primary-color);
+        }
+
+        /* Your styles here */
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .navbar-brand img {
+            height: 50px;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #333;
+            font-size: 16px;
+            padding: 10px 15px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover,
+        .navbar-nav .nav-item .nav-link.active {
+            color: #e74e35;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 20px 0;
+            background: #e74e35;
+            text-align: center;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="mb-4 text-center">Present your invitation</h1>
+                <div class="input-group mb-3">
+                    <!-- added qr-input class to the input -->
+                    <div class="col-md-8 col-sm-12 p-0">
+                        <input type="text" id="qrCode" class="form-control qr-input"
+                            placeholder="Enter invitation Code">
+                    </div>
+                    <div class="col-md-4 col-sm-12 p-0">
+                        <button class="btn btn-primary btn-block" onclick="showQRCode()">Show QR Code</button>
+                    </div>
+                    <div> <!-- Added a class to center the ad -->
+                        <!-- START ADVERTISER: Scandic NO from awin.com -->
+                        <div id="ads" style=" min-width: 250px; margin: 20px;">
+                            <script async
+                                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8255021700561730"
+                                crossorigin="anonymous"></script>
+                            <ins class="adsbygoogle" style="display:block; text-align:center;"
+                                data-ad-layout="in-article" data-ad-format="fluid"
+                                data-ad-client="ca-pub-8255021700561730" data-ad-slot="8167691408"></ins>
+                            <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                        </div>
+                        <!-- END ADVERTISER: Scandic NO from awin.com -->
+                    </div>
+
+                </div>
+                <div id="qrCodeContainer" style="display:none;">
+                    <div id="qrCodeCard" class="card">
+                        <img id="cardImage" class="card-img-top" alt="Card Image">
+                    </div>
+                    <div class="card-body text-center">
+                        <div id="qrCodeImage" class="mb-3"></div>
+                        <p class="card-text" id="qrCodeText"></p>
+                    </div>
+                    <h3 id="errorMessage" class="text-danger text-center mt-4" style="display: none;">Invalid QR
+                        code
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <p>© 2023 Gatechecc. All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+    <script src="obfustaced/guest.js"></script>
+</body>
+
+</html>

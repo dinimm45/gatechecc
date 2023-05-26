@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>InviteQR</title>
+    <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/milligram@1.3.0/dist/milligram.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <meta name="author" content="ZXing for JS">
+</head>
+
+<body>
+    <h4 style="text-align: center;">Scan QR Code for Invitation</h4>
+    <main>
+        <div class="scan-code">
+            <canvas style="display: none;" id="qr-canvas"></canvas>
+            <video id="video" playsinline autoplay muted></video>
+        </div>
+
+        <div id="qr-result" hidden="">
+            <b>Data:</b> <span id="outputData"></span>
+        </div>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+        <div class="lotties">
+            <lottie-player id="valid" src="https://assets9.lottiefiles.com/packages/lf20_afs4kbqm.json"
+                background="transparent" speed="1" style="display: none;" autoplay></lottie-player>
+            <lottie-player id="nonevalid" src="https://assets8.lottiefiles.com/packages/lf20_g0rackmk.json"
+                background="transparent" speed="1" style="display: none;" autoplay></lottie-player>
+        </div>
+        <button id="refresh"
+            style="position: fixed;z-index: 1;width: 50%; display: none; background-color: #e74e35;">Scan</button>
+    </main>
+
+
+
+
+
+    <script src="obfustaced/scanner.js"> </script>
+
+
+
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .lotties {
+            width: 200px;
+            height: 200px;
+            z-index: 1;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 35%;
+
+
+        }
+
+        main {
+            padding-top: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h4 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+
+        .scan-code {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+            width: 60vw;
+            border-radius: 15px;
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+            background: white;
+            position: relative;
+        }
+
+        .scan-code:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 5px dashed #ccc;
+            border-radius: 15px;
+            z-index: 2;
+        }
+
+        #qr-result {
+            color: #333;
+            margin-top: 2em;
+        }
+
+        .box {
+            float: left;
+            height: 10px;
+            width: 10px;
+            margin-bottom: 15px;
+            border: 1px solid black;
+            clear: both;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        /*scanner animation*/
+        .scan-code {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            width: 210px;
+            height: 180px;
+            z-index: 1;
+            left: 50%;
+            top: 50%
+        }
+
+        .scan-code__angle:before,
+        .scan-code__angle:after {
+            content: "";
+            position: absolute;
+
+            width: 30px;
+            height: 30px;
+            border-style: solid;
+            border-color: #52b459;
+            border-width: 0px;
+            z-index: 1;
+
+        }
+
+        .scan-code__angle:before {
+            border-left-width: 4px;
+            left: 0;
+
+        }
+
+        .scan-code__angle:after {
+            border-right-width: 4px;
+            right: 0;
+
+
+        }
+
+        .scan-code__angle--top:before,
+        .scan-code__angle--top:after {
+            top: 0;
+            border-top-width: 4px;
+
+
+        }
+
+        .scan-code__angle--bottom:before,
+        .scan-code__angle--bottom:after {
+            bottom: 0;
+            border-bottom-width: 3px;
+        }
+
+        .scan-code__angle--top:before {
+            border-top-left-radius: 3px;
+        }
+
+        .scan-code__angle--top:after {
+            border-top-right-radius: 3px;
+        }
+
+        .scan-code__angle--bottom:before {
+            border-bottom-left-radius: 3px;
+        }
+
+        .scan-code__angle--bottom:after {
+            border-bottom-right-radius: 3px;
+        }
+
+        ul {
+            color: black;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        h4 {
+            color: black;
+        }
+    </style>
+    <!--The library in the button has to stay upgraded to work-->
+    <script type="text/javascript" src="https://unpkg.com/@zxing/library@dev"></script>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Display Your Invitation Cards</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap library -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background: #f8f9fa;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+            /* Give space under the navbar */
+            margin-bottom: 20px;
+        }
+
+
+        .inputs-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #333;
+            border-radius: 5px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .inputs-container input:focus {
+            border-color: #e74e35;
+        }
+
+        .btn-primary {
+            background-color: #E74E35;
+            border: none;
+            border: none;
+            border-radius: 5px;
+            background-color: #e74e35;
+            color: #fff;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .btn-primary:hover {
+            background-color: #E74E35;
+            opacity: 0.8;
+            color: #333;
+        }
+
+        #codesContainer {
+            text-align: center;
+        }
+
+        #errorMessage {
+            color: red;
+            display: none;
+        }
+
+        #codesList {
+            list-style: none;
+            padding: 0;
+        }
+
+        .code-item {
+            margin-bottom: 20px;
+        }
+
+        .code-item .card {
+            border: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .code-item .card-body {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .code-item .btn-secondary {
+            background-color: #5a6268;
+            border: none;
+        }
+
+        .code-item .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+
+        /* Your styles here */
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .navbar-brand img {
+            height: 50px;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #333;
+            font-size: 16px;
+            padding: 10px 15px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover,
+        .navbar-nav .nav-item .nav-link.active {
+            color: #e74e35;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 20px 0;
+            background: #e74e35;
+            text-align: center;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="inputs-container">
+        <div class="container">
+            <h1 style="text-align: center; color: #E74E35;">Display Your Invitation Cards</h1>
+            <input type="number" id="phoneNumber" placeholder="Phone Number" />
+            <button style="background-color: #E74E35;" class="btn btn-primary" onclick="showCodes()">Show Codes</button>
+            <div class="text-center"> <!-- Added a class to center the ad -->
+                <!-- START ADVERTISER: Scandic NO from awin.com -->
+                <div id="ads" style="max-width: 100%; max-height: 50%; margin: 20px;">
+                    <!-- Adjusted max-width and centered the ad -->
+                    <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3057684&v=21887&q=429842&r=1019293">
+                        <img src="https://www.awin1.com/cshow.php?s=3057684&v=21887&q=429842&r=1019293" border="0"
+                            style="max-width: 100%;">
+                    </a>
+                </div>
+                <!-- END ADVERTISER: Scandic NO from awin.com -->
+            </div>
+        </div>
+        <div id="codesContainer">
+            <h3 id="errorMessage">Invalid phone number</h3>
+            <ul id="codesList"></ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="containerr">
+            <p>© 2023 Gatechecc. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+
+    <script src="obfustaced/displayinv.js"> </script>
+</body>
+
+</html>
