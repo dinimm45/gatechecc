@@ -60,6 +60,7 @@
             margin: 0 auto;
             position: absolute;
             bottom: 35px;
+            /* keep bottom back to 20 */
             left: 50%;
             transform: translateX(-50%);
         }
@@ -68,6 +69,14 @@
         .qr-input {
             border: 1px solid var(--primary-color);
         }
+
+        .qrCodeFrame {
+            border: 1px solid var(--primary-color);
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+        }
+
 
         /* update h1 color */
         h1 {
@@ -166,9 +175,10 @@
                 <div id="qrCodeContainer" style="display:none;">
                     <div id="qrCodeCard" class="card">
                         <img id="cardImage" class="card-img-top" alt="Card Image">
+                        <div id="qrCodeImage" class="mb-3 qrCodeFrame"></div>
+
                     </div>
                     <div class="card-body text-center">
-                        <div id="qrCodeImage" class="mb-3"></div>
                         <p class="card-text" id="qrCodeText"></p>
                     </div>
                     <h3 id="errorMessage" class="text-danger text-center mt-4" style="display: none;">Invalid QR
