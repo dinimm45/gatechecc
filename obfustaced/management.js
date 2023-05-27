@@ -1,88 +1,80 @@
-function _0x4632() {
-  var _0x686a49 = [
-    "addEventListener",
-    "showTickets",
-    "415060zJSBFr",
-    "getElementById",
-    "13bQRtyM",
-    "750ErQcMe",
-    "230610zUGocP",
-    "1QFWrjS",
-    "location",
-    "146469LRIgOE",
-    "href",
-    "9swrVoJ",
-    "8813sfzZTi",
+function _0x1d20() {
+  var _0x45f30e = [
+    "62MIjomY",
+    "6557350qGBkwk",
+    "DisplayInvitations.html",
+    "413ChHkrr",
     "checkticket",
-    "card.html",
+    "189190CCrhsp",
+    "addEventListener",
+    "209eJeIHv",
+    "206664qFRwmU",
+    "href",
+    "getElementById",
+    "location",
     "scanner.html",
-    "1568024VpklMI",
-    "8Pwansd",
-    "11eHhJiC",
+    "6tBLomy",
+    "showTickets",
+    "837QnoWJE",
+    "2413389YzcTwd",
+    "10791879fpspbz",
     "click",
-    "500525BZVvXA",
-    "5591844tjQaWZ",
+    "12720144GyyPPt",
+    "4xJeBuB",
   ];
-  _0x4632 = function () {
-    return _0x686a49;
+  _0x1d20 = function () {
+    return _0x45f30e;
   };
-  return _0x4632();
+  return _0x1d20();
 }
-var _0x5d84b9 = _0x1480;
-function _0x1480(_0x17ec42, _0x33d030) {
-  var _0x463255 = _0x4632();
+function _0x3327(_0x17eb8c, _0x3a1bb1) {
+  var _0x1d207b = _0x1d20();
   return (
-    (_0x1480 = function (_0x1480f9, _0x4d43c7) {
-      _0x1480f9 = _0x1480f9 - 0x198;
-      var _0x2280dd = _0x463255[_0x1480f9];
-      return _0x2280dd;
+    (_0x3327 = function (_0x3327a2, _0x117f3c) {
+      _0x3327a2 = _0x3327a2 - 0x1bd;
+      var _0x2b2b0e = _0x1d207b[_0x3327a2];
+      return _0x2b2b0e;
     }),
-    _0x1480(_0x17ec42, _0x33d030)
+    _0x3327(_0x17eb8c, _0x3a1bb1)
   );
 }
-(function (_0x1b69bb, _0x4b1649) {
-  var _0x2efc9c = _0x1480,
-    _0x558fd2 = _0x1b69bb();
+var _0x32f5b8 = _0x3327;
+(function (_0x35b9cf, _0x10c027) {
+  var _0x44b778 = _0x3327,
+    _0x4847cf = _0x35b9cf();
   while (!![]) {
     try {
-      var _0x40ab94 =
-        (parseInt(_0x2efc9c(0x19b)) / 0x1) *
-          (-parseInt(_0x2efc9c(0x1ac)) / 0x2) +
-        (-parseInt(_0x2efc9c(0x19d)) / 0x3) *
-          (parseInt(_0x2efc9c(0x1a5)) / 0x4) +
-        -parseInt(_0x2efc9c(0x1a8)) / 0x5 +
-        (parseInt(_0x2efc9c(0x199)) / 0x6) *
-          (-parseInt(_0x2efc9c(0x1a0)) / 0x7) +
-        (-parseInt(_0x2efc9c(0x1a4)) / 0x8) *
-          (-parseInt(_0x2efc9c(0x19f)) / 0x9) +
-        (-parseInt(_0x2efc9c(0x19a)) / 0xa) *
-          (-parseInt(_0x2efc9c(0x1a6)) / 0xb) +
-        (parseInt(_0x2efc9c(0x1a9)) / 0xc) * (parseInt(_0x2efc9c(0x198)) / 0xd);
-      if (_0x40ab94 === _0x4b1649) break;
-      else _0x558fd2["push"](_0x558fd2["shift"]());
-    } catch (_0x3b9668) {
-      _0x558fd2["push"](_0x558fd2["shift"]());
+      var _0x240cf1 =
+        (parseInt(_0x44b778(0x1cb)) / 0x1) *
+          (-parseInt(_0x44b778(0x1c8)) / 0x2) +
+        (-parseInt(_0x44b778(0x1c3)) / 0x3) *
+          (-parseInt(_0x44b778(0x1c7)) / 0x4) +
+        -parseInt(_0x44b778(0x1c9)) / 0x5 +
+        (parseInt(_0x44b778(0x1c0)) / 0x6) *
+          (-parseInt(_0x44b778(0x1c4)) / 0x7) +
+        parseInt(_0x44b778(0x1c6)) / 0x8 +
+        (parseInt(_0x44b778(0x1c2)) / 0x9) *
+          (parseInt(_0x44b778(0x1cd)) / 0xa) +
+        (-parseInt(_0x44b778(0x1cf)) / 0xb) *
+          (parseInt(_0x44b778(0x1d0)) / 0xc);
+      if (_0x240cf1 === _0x10c027) break;
+      else _0x4847cf["push"](_0x4847cf["shift"]());
+    } catch (_0xb5d6de) {
+      _0x4847cf["push"](_0x4847cf["shift"]());
     }
   }
-})(_0x4632, 0x1de1b),
-  document[_0x5d84b9(0x1ad)](_0x5d84b9(0x1ab))["addEventListener"](
-    _0x5d84b9(0x1a7),
+})(_0x1d20, 0xea8f8),
+  document[_0x32f5b8(0x1bd)](_0x32f5b8(0x1c1))["addEventListener"](
+    _0x32f5b8(0x1c5),
     function () {
-      var _0x32329d = _0x5d84b9;
-      window[_0x32329d(0x19c)][_0x32329d(0x19e)] = "DisplayInvitations.html";
+      var _0x62af7e = _0x32f5b8;
+      window["location"]["href"] = _0x62af7e(0x1ca);
     }
   ),
-  document[_0x5d84b9(0x1ad)]("createTickets")[_0x5d84b9(0x1aa)](
-    _0x5d84b9(0x1a7),
+  document[_0x32f5b8(0x1bd)](_0x32f5b8(0x1cc))[_0x32f5b8(0x1ce)](
+    _0x32f5b8(0x1c5),
     function () {
-      var _0x5b7984 = _0x5d84b9;
-      window["location"][_0x5b7984(0x19e)] = _0x5b7984(0x1a2);
-    }
-  ),
-  document["getElementById"](_0x5d84b9(0x1a1))[_0x5d84b9(0x1aa)](
-    _0x5d84b9(0x1a7),
-    function () {
-      var _0x234576 = _0x5d84b9;
-      window[_0x234576(0x19c)][_0x234576(0x19e)] = _0x234576(0x1a3);
+      var _0x23356f = _0x32f5b8;
+      window[_0x23356f(0x1be)][_0x23356f(0x1d1)] = _0x23356f(0x1bf);
     }
   );
