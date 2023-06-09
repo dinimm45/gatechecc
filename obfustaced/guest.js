@@ -1,151 +1,229 @@
-function _0x1b4f(_0x19d90f, _0x2d300b) {
-  const _0x8bccd1 = _0x8bcc();
+function _0x2b46() {
+  const _0xb0c32e = [
+    "291807IvdIif",
+    "className",
+    "codes",
+    "button",
+    "span",
+    "Copy",
+    "?code=",
+    "none",
+    "804XEeULg",
+    "157367ObERrw",
+    "catch",
+    "collection",
+    "64zQojkr",
+    "Error\x20copying\x20code:\x20",
+    "createElement",
+    "codesList",
+    "style",
+    "995789907234",
+    "mr-3",
+    "appendChild",
+    "40SAumyx",
+    "348YCSHfl",
+    "\x20.We\x20look\x20forward\x20to\x20your\x20presence\x20at\x20this\x20extraordinary\x20gathering.",
+    "13291HqOwxl",
+    "https://gatechecc.com/guest.html",
+    "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
+    "1:995789907234:web:54edcc689b1c894594717b",
+    "div",
+    "increment",
+    "card",
+    "43989opDCgj",
+    "12JmgrGy",
+    "doc",
+    "update",
+    "phoneNumber",
+    "forEach",
+    "get",
+    "where",
+    "code",
+    "then",
+    "21445UbYlNP",
+    "eventsdb-b6aaf.appspot.com",
+    "314004NXgeZp",
+    "errorMessage",
+    "eventsdb-b6aaf.firebaseapp.com",
+    "eventsdb-b6aaf",
+    "data",
+    "display",
+    "Copied\x20",
+    "Error\x20updating\x20document:\x20",
+    "btn\x20btn-secondary",
+    "innerHTML",
+    "98718JUymOZ",
+    "\x20times",
+    "block",
+    "writeText",
+    "value",
+    "getElementById",
+    "log",
+    "card-body",
+    "FieldValue",
+    "\x20Follow\x20this\x20link\x20to\x20view\x20the\x20QR\x20Code\x20and\x20Image:\x20",
+    "empty",
+    "copyCount",
+    "textContent",
+    "click",
+    "Error\x20fetching\x20updated\x20document:\x20",
+    "You\x20are\x20cordially\x20invited\x20to\x20my\x20event!\x20kindly\x20visit\x20the\x20website\x20https://gatechecc.com/guest\x20and\x20enter\x20the\x20following\x20code:",
+    "firestore",
+  ];
+  _0x2b46 = function () {
+    return _0xb0c32e;
+  };
+  return _0x2b46();
+}
+function _0x3a39(_0x2b1ae7, _0x26956f) {
+  const _0x2b469 = _0x2b46();
   return (
-    (_0x1b4f = function (_0x1b4f69, _0x5ea710) {
-      _0x1b4f69 = _0x1b4f69 - 0x11c;
-      let _0x2740a8 = _0x8bccd1[_0x1b4f69];
-      return _0x2740a8;
+    (_0x3a39 = function (_0x3a3989, _0x1072f5) {
+      _0x3a3989 = _0x3a3989 - 0xcf;
+      let _0x40b24f = _0x2b469[_0x3a3989];
+      return _0x40b24f;
     }),
-    _0x1b4f(_0x19d90f, _0x2d300b)
+    _0x3a39(_0x2b1ae7, _0x26956f)
   );
 }
-function _0x8bcc() {
-  const _0x3e269a = [
-    "src",
-    "1231170PpHaMU",
-    "none",
-    "9177JPxJIA",
-    "get",
-    "trim",
-    "ads",
-    "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
-    "eventsdb-b6aaf",
-    "1:995789907234:web:54edcc689b1c894594717b",
-    "appendChild",
-    "div",
-    "block",
-    "qrCodeImage",
-    "223144rxVUYE",
-    "then",
-    "eventsdb-b6aaf.firebaseapp.com",
-    "createElement",
-    "getElementById",
-    "value",
-    "20vZBUcx",
-    "197349UJabPH",
-    "display",
-    "log",
-    "eventsdb-b6aaf.appspot.com",
-    "330ThTGOt",
-    "230322fKtDws",
-    "animate",
-    "docs",
-    "995789907234",
-    "cardImage",
-    "catch",
-    "Error\x20getting\x20documents:\x20",
-    "image",
-    "codes",
-    "empty",
-    "style",
-    "54ziyTjR",
-    "html,\x20body",
-    "height",
-    "qrCode",
-    "2yWmSGx",
-    "521213qDDmVt",
-    "firestore",
-    "G-J0DC7YW8J4",
-    "qrCodeContainer",
-    "errorMessage",
-    "255372NmTreh",
-  ];
-  _0x8bcc = function () {
-    return _0x3e269a;
-  };
-  return _0x8bcc();
-}
-const _0x18cf3a = _0x1b4f;
-(function (_0xe3de48, _0x261c24) {
-  const _0x50be1d = _0x1b4f,
-    _0x29e52b = _0xe3de48();
+const _0x10556a = _0x3a39;
+(function (_0x1839ba, _0x4152f1) {
+  const _0x54c447 = _0x3a39,
+    _0x3cedc6 = _0x1839ba();
   while (!![]) {
     try {
-      const _0x4737c9 =
-        parseInt(_0x50be1d(0x143)) / 0x1 +
-        (-parseInt(_0x50be1d(0x122)) / 0x2) *
-          (-parseInt(_0x50be1d(0x13e)) / 0x3) +
-        -parseInt(_0x50be1d(0x128)) / 0x4 +
-        parseInt(_0x50be1d(0x12a)) / 0x5 +
-        (-parseInt(_0x50be1d(0x142)) / 0x6) *
-          (parseInt(_0x50be1d(0x12c)) / 0x7) +
-        (-parseInt(_0x50be1d(0x137)) / 0x8) *
-          (parseInt(_0x50be1d(0x11e)) / 0x9) +
-        (-parseInt(_0x50be1d(0x13d)) / 0xa) *
-          (parseInt(_0x50be1d(0x123)) / 0xb);
-      if (_0x4737c9 === _0x261c24) break;
-      else _0x29e52b["push"](_0x29e52b["shift"]());
-    } catch (_0x2af8ec) {
-      _0x29e52b["push"](_0x29e52b["shift"]());
+      const _0x7becd9 =
+        parseInt(_0x54c447(0xf6)) / 0x1 +
+        (parseInt(_0x54c447(0xfe)) / 0x2) *
+          (-parseInt(_0x54c447(0x113)) / 0x3) +
+        -parseInt(_0x54c447(0x109)) / 0x4 +
+        (parseInt(_0x54c447(0x107)) / 0x5) * (parseInt(_0x54c447(0xf4)) / 0x6) +
+        (parseInt(_0x54c447(0xe8)) / 0x7) * (-parseInt(_0x54c447(0xeb)) / 0x8) +
+        (parseInt(_0x54c447(0xdf)) / 0x9) * (parseInt(_0x54c447(0xf3)) / 0xa) +
+        (-parseInt(_0x54c447(0xfd)) / 0xb) * (-parseInt(_0x54c447(0xe7)) / 0xc);
+      if (_0x7becd9 === _0x4152f1) break;
+      else _0x3cedc6["push"](_0x3cedc6["shift"]());
+    } catch (_0x4019cd) {
+      _0x3cedc6["push"](_0x3cedc6["shift"]());
     }
   }
-})(_0x8bcc, 0x2338b);
+})(_0x2b46, 0x31c75);
 const firebaseConfig = {
-  apiKey: _0x18cf3a(0x130),
-  authDomain: _0x18cf3a(0x139),
-  projectId: _0x18cf3a(0x131),
-  storageBucket: _0x18cf3a(0x141),
-  messagingSenderId: _0x18cf3a(0x146),
-  appId: _0x18cf3a(0x132),
-  measurementId: _0x18cf3a(0x125),
+  apiKey: _0x10556a(0xf8),
+  authDomain: _0x10556a(0x10b),
+  projectId: _0x10556a(0x10c),
+  storageBucket: _0x10556a(0x108),
+  messagingSenderId: _0x10556a(0xf0),
+  appId: _0x10556a(0xf9),
+  measurementId: "G-J0DC7YW8J4",
 };
 firebase["initializeApp"](firebaseConfig);
-const db = firebase[_0x18cf3a(0x124)]();
-function showQRCode() {
-  const _0xc4238d = _0x18cf3a,
-    _0x3dadd6 = document[_0xc4238d(0x13b)](_0xc4238d(0x121)),
-    _0x162cf2 = _0x3dadd6[_0xc4238d(0x13c)][_0xc4238d(0x12e)](),
-    _0x37b269 = document[_0xc4238d(0x13b)](_0xc4238d(0x126)),
-    _0x1eb818 = document[_0xc4238d(0x13b)]("qrCodeCard"),
-    _0x2caf98 = document[_0xc4238d(0x13b)](_0xc4238d(0x147)),
-    _0x2ee392 = document[_0xc4238d(0x13b)](_0xc4238d(0x136)),
-    _0x599461 = document["getElementById"]("qrCodeText"),
-    _0x369e2a = document[_0xc4238d(0x13b)](_0xc4238d(0x12f));
-  (_0x369e2a[_0xc4238d(0x11d)][_0xc4238d(0x13f)] = _0xc4238d(0x12b)),
-    $(_0xc4238d(0x11f))[_0xc4238d(0x144)](
-      { scrollTop: $(document)[_0xc4238d(0x120)]() },
-      0x3e8
-    ),
-    db["collection"](_0xc4238d(0x14b))
-      ["where"]("code", "==", _0x162cf2)
-      [_0xc4238d(0x12d)]()
-      [_0xc4238d(0x138)]((_0x3af78e) => {
-        const _0x416c3f = _0xc4238d;
-        _0x37b269[_0x416c3f(0x11d)]["display"] = _0x416c3f(0x135);
-        if (_0x3af78e[_0x416c3f(0x11c)])
-          (_0x1eb818[_0x416c3f(0x11d)]["display"] = _0x416c3f(0x12b)),
-            (document["getElementById"](_0x416c3f(0x127))["style"][
-              _0x416c3f(0x13f)
-            ] = "block");
-        else {
-          const _0xdec7ff = _0x3af78e[_0x416c3f(0x145)][0x0],
-            _0x30e3fe = _0xdec7ff["data"](),
-            _0x2f4986 = _0x30e3fe[_0x416c3f(0x14a)];
-          _0x2caf98[_0x416c3f(0x129)] = _0x2f4986;
-          const _0x250cb4 = new QRCode(
-            document[_0x416c3f(0x13a)](_0x416c3f(0x134)),
-            { text: _0x162cf2, width: 0x3a, height: 0x3a }
-          );
-          (_0x2ee392["innerHTML"] = ""),
-            _0x2ee392[_0x416c3f(0x133)](_0x250cb4["_el"]),
-            (_0x1eb818[_0x416c3f(0x11d)][_0x416c3f(0x13f)] = "block"),
-            (document[_0x416c3f(0x13b)](_0x416c3f(0x127))["style"][
-              _0x416c3f(0x13f)
-            ] = _0x416c3f(0x12b));
-        }
+const db = firebase[_0x10556a(0xde)]();
+function showCodes() {
+  const _0x23ba95 = _0x10556a,
+    _0x59049c = document[_0x23ba95(0xd3)](_0x23ba95(0x101))[_0x23ba95(0xd2)],
+    _0x2306e8 = document["getElementById"](_0x23ba95(0xee));
+  _0x2306e8[_0x23ba95(0x112)] = "";
+  const _0x222075 = document[_0x23ba95(0xd3)]("ads");
+  (_0x222075[_0x23ba95(0xef)]["display"] = _0x23ba95(0xe6)),
+    db["collection"](_0x23ba95(0xe1))
+      [_0x23ba95(0x104)]("phoneNumber", "==", _0x59049c)
+      [_0x23ba95(0x103)]()
+      [_0x23ba95(0x106)]((_0x2aaf9f) => {
+        const _0x35f08e = _0x23ba95;
+        _0x2aaf9f[_0x35f08e(0xd8)]
+          ? (document[_0x35f08e(0xd3)](_0x35f08e(0x10a))[_0x35f08e(0xef)][
+              _0x35f08e(0x10e)
+            ] = _0x35f08e(0xd0))
+          : (_0x2aaf9f[_0x35f08e(0x102)]((_0x50e7dd) => {
+              const _0x2fae67 = _0x35f08e,
+                _0x59c1c7 = _0x50e7dd[_0x2fae67(0x10d)]()[_0x2fae67(0x105)],
+                _0x216464 = document["createElement"]("li");
+              _0x216464[_0x2fae67(0xe0)] = "code-item";
+              const _0xb94daa = document["createElement"](_0x2fae67(0xfa));
+              _0xb94daa[_0x2fae67(0xe0)] = _0x2fae67(0xfc);
+              const _0x50ad1a = document["createElement"]("div");
+              _0x50ad1a[_0x2fae67(0xe0)] = _0x2fae67(0xd5);
+              const _0x3732a9 = document[_0x2fae67(0xed)](_0x2fae67(0xe3));
+              (_0x3732a9[_0x2fae67(0xda)] = _0x59c1c7),
+                (_0x3732a9["className"] = _0x2fae67(0xf1));
+              const _0x45d7b8 = _0x2fae67(0xdd),
+                _0x268309 = _0x2fae67(0xf5),
+                _0x95087d = document[_0x2fae67(0xed)](_0x2fae67(0xe2));
+              (_0x95087d[_0x2fae67(0xe0)] = _0x2fae67(0x111)),
+                (_0x95087d[_0x2fae67(0xda)] =
+                  _0x50e7dd[_0x2fae67(0x10d)]()[_0x2fae67(0xd9)] > 0x0
+                    ? "Copied\x20" +
+                      _0x50e7dd[_0x2fae67(0x10d)]()[_0x2fae67(0xd9)] +
+                      _0x2fae67(0xcf)
+                    : _0x2fae67(0xe4)),
+                _0x95087d["addEventListener"](_0x2fae67(0xdb), () => {
+                  copyCode(
+                    _0x59c1c7,
+                    _0x95087d,
+                    _0x45d7b8,
+                    _0x268309,
+                    _0x50e7dd["id"]
+                  );
+                }),
+                _0x50ad1a[_0x2fae67(0xf2)](_0x3732a9),
+                _0x50ad1a[_0x2fae67(0xf2)](_0x95087d),
+                _0xb94daa[_0x2fae67(0xf2)](_0x50ad1a),
+                _0x216464[_0x2fae67(0xf2)](_0xb94daa),
+                _0x2306e8[_0x2fae67(0xf2)](_0x216464);
+            }),
+            (document[_0x35f08e(0xd3)](_0x35f08e(0x10a))["style"][
+              _0x35f08e(0x10e)
+            ] = "none"));
       })
-      [_0xc4238d(0x148)]((_0x58f0a9) => {
-        const _0x5767c2 = _0xc4238d;
-        console[_0x5767c2(0x140)](_0x5767c2(0x149), _0x58f0a9);
+      [_0x23ba95(0xe9)]((_0x58fae6) => {
+        const _0x3c22a5 = _0x23ba95;
+        console[_0x3c22a5(0xd4)](
+          "Error\x20getting\x20documents:\x20",
+          _0x58fae6
+        );
       });
+}
+function copyCode(_0x2695b9, _0x297267, _0x14e41c, _0x48362d, _0x564630) {
+  const _0x138b62 = _0x10556a,
+    _0x136ed2 = _0x138b62(0xf7),
+    _0x2d24c2 = _0x136ed2 + _0x138b62(0xe5) + _0x2695b9;
+  navigator["clipboard"]
+    [_0x138b62(0xd1)](
+      "" + _0x14e41c + _0x2695b9 + _0x48362d + _0x138b62(0xd7) + _0x2d24c2
+    )
+    ["then"](() => {
+      const _0x151d91 = _0x138b62;
+      db["collection"]("codes")
+        ["doc"](_0x564630)
+        [_0x151d91(0x100)]({
+          copyCount:
+            firebase[_0x151d91(0xde)][_0x151d91(0xd6)][_0x151d91(0xfb)](0x1),
+        })
+        [_0x151d91(0x106)](() => {
+          const _0xb1692 = _0x151d91;
+          db[_0xb1692(0xea)]("codes")
+            [_0xb1692(0xff)](_0x564630)
+            [_0xb1692(0x103)]()
+            [_0xb1692(0x106)]((_0x3ce76f) => {
+              const _0x3db5f6 = _0xb1692;
+              _0x297267[_0x3db5f6(0xda)] =
+                _0x3db5f6(0x10f) +
+                _0x3ce76f["data"]()[_0x3db5f6(0xd9)] +
+                _0x3db5f6(0xcf);
+            })
+            [_0xb1692(0xe9)]((_0x11cc6f) => {
+              const _0x5666c = _0xb1692;
+              console["log"](_0x5666c(0xdc), _0x11cc6f);
+            });
+        })
+        [_0x151d91(0xe9)]((_0x39fc1c) => {
+          const _0x2120f7 = _0x151d91;
+          console[_0x2120f7(0xd4)](_0x2120f7(0x110), _0x39fc1c);
+        });
+    })
+    ["catch"]((_0x23a72c) => {
+      const _0x124e25 = _0x138b62;
+      console[_0x124e25(0xd4)](_0x124e25(0xec), _0x23a72c);
+    });
 }

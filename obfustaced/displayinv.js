@@ -1,217 +1,220 @@
-const _0x1fe808 = _0x31f0;
-(function (_0x34c848, _0xddab1f) {
-  const _0x123074 = _0x31f0,
-    _0x198ef0 = _0x34c848();
-  while (!![]) {
-    try {
-      const _0xcbec73 =
-        -parseInt(_0x123074(0xee)) / 0x1 +
-        -parseInt(_0x123074(0xf5)) / 0x2 +
-        (-parseInt(_0x123074(0xd6)) / 0x3) *
-          (-parseInt(_0x123074(0xf4)) / 0x4) +
-        (parseInt(_0x123074(0xc5)) / 0x5) * (-parseInt(_0x123074(0xd5)) / 0x6) +
-        parseInt(_0x123074(0xc8)) / 0x7 +
-        -parseInt(_0x123074(0xd9)) / 0x8 +
-        parseInt(_0x123074(0xf2)) / 0x9;
-      if (_0xcbec73 === _0xddab1f) break;
-      else _0x198ef0["push"](_0x198ef0["shift"]());
-    } catch (_0x41c9ee) {
-      _0x198ef0["push"](_0x198ef0["shift"]());
-    }
-  }
-})(_0x5135, 0x962b4);
-function _0x5135() {
-  const _0x16c7a7 = [
-    "div",
-    "Error\x20getting\x20documents:\x20",
-    "phoneNumber",
-    "14193324qmPkej",
-    "doc",
-    "4OgHuOz",
-    "1470060IwTiqH",
-    "G-J0DC7YW8J4",
-    "\x20.We\x20look\x20forward\x20to\x20your\x20presence\x20at\x20this\x20extraordinary\x20gathering.",
-    "createElement",
-    "display",
-    "codes",
-    "catch",
-    "eventsdb-b6aaf.appspot.com",
-    "where",
-    "firestore",
-    "code-item",
-    "then",
-    "addEventListener",
-    "14805VVMcmq",
-    "Copy",
-    "data",
-    "6960394zcZswN",
-    "copyCount",
-    "forEach",
-    "none",
-    "update",
-    "eventsdb-b6aaf.firebaseapp.com",
-    "card",
-    "empty",
-    "Error\x20copying\x20code:\x20",
-    "className",
-    "value",
-    "textContent",
-    "You\x20are\x20cordially\x20invited\x20to\x20my\x20event!\x20kindly\x20visit\x20the\x20website\x20https://gatechecc.com/guest\x20and\x20enter\x20the\x20following\x20code:",
-    "492mlbZjY",
-    "174387ZbcHxX",
-    "getElementById",
-    "block",
-    "471320iDrxVG",
-    "btn\x20btn-secondary",
-    "innerHTML",
-    "errorMessage",
-    "style",
-    "\x20times",
-    "FieldValue",
-    "clipboard",
-    "initializeApp",
-    "card-body",
-    "Copied\x20",
-    "log",
-    "ads",
-    "get",
-    "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
-    "collection",
-    "995789907234",
-    "eventsdb-b6aaf",
-    "Error\x20fetching\x20updated\x20document:\x20",
-    "appendChild",
-    "increment",
-    "977668qktHMT",
-  ];
-  _0x5135 = function () {
-    return _0x16c7a7;
-  };
-  return _0x5135();
-}
-const firebaseConfig = {
-  apiKey: _0x1fe808(0xe7),
-  authDomain: _0x1fe808(0xcd),
-  projectId: _0x1fe808(0xea),
-  storageBucket: _0x1fe808(0xbf),
-  messagingSenderId: _0x1fe808(0xe9),
-  appId: "1:995789907234:web:54edcc689b1c894594717b",
-  measurementId: _0x1fe808(0xf6),
-};
-firebase[_0x1fe808(0xe1)](firebaseConfig);
-const db = firebase[_0x1fe808(0xc1)]();
-function _0x31f0(_0x367c9c, _0x5b924d) {
-  const _0x51352d = _0x5135();
+function _0x33ef(_0x51fa6b, _0xc56a39) {
+  const _0x3156e5 = _0x3156();
   return (
-    (_0x31f0 = function (_0x31f0ce, _0x2ee89e) {
-      _0x31f0ce = _0x31f0ce - 0xbd;
-      let _0x28220f = _0x51352d[_0x31f0ce];
-      return _0x28220f;
+    (_0x33ef = function (_0x33ef97, _0x58e98d) {
+      _0x33ef97 = _0x33ef97 - 0x1de;
+      let _0x59f142 = _0x3156e5[_0x33ef97];
+      return _0x59f142;
     }),
-    _0x31f0(_0x367c9c, _0x5b924d)
+    _0x33ef(_0x51fa6b, _0xc56a39)
   );
 }
+const _0x145f16 = _0x33ef;
+function _0x3156() {
+  const _0x15424b = [
+    "innerHTML",
+    "createElement",
+    "6836420UsaEhq",
+    "forEach",
+    "span",
+    "collection",
+    "clipboard",
+    "546RZGfME",
+    "\x20times",
+    "110bnnPUa",
+    "doc",
+    "eventsdb-b6aaf.appspot.com",
+    "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
+    "card-body",
+    "ads",
+    "addEventListener",
+    "textContent",
+    "Error\x20fetching\x20updated\x20document:\x20",
+    "phoneNumber",
+    "data",
+    "1831743wRMfVH",
+    "?code=",
+    "style",
+    "block",
+    "67084BWcvar",
+    "18CVUjjZ",
+    "29424IyDMLe",
+    "errorMessage",
+    "div",
+    "Error\x20getting\x20documents:\x20",
+    "415618FpOrmk",
+    "click",
+    "3960496VLURVk",
+    "Copy",
+    "increment",
+    "You\x20are\x20cordially\x20invited\x20to\x20my\x20event!\x20kindly\x20visit\x20the\x20website\x20https://gatechecc.com/guest\x20and\x20enter\x20the\x20following\x20code:",
+    "appendChild",
+    "get",
+    "code-item",
+    "Error\x20copying\x20code:\x20",
+    "copyCount",
+    "1YNLtsF",
+    "log",
+    "className",
+    "display",
+    "Error\x20updating\x20document:\x20",
+    "8290513qNFpCS",
+    "codes",
+    "G-J0DC7YW8J4",
+    "none",
+    "catch",
+    "then",
+    "empty",
+    "getElementById",
+    "\x20Follow\x20this\x20link\x20to\x20view\x20the\x20QR\x20Code\x20and\x20Image:\x20",
+    "where",
+    "mr-3",
+    "eventsdb-b6aaf.firebaseapp.com",
+    "\x20.We\x20look\x20forward\x20to\x20your\x20presence\x20at\x20this\x20extraordinary\x20gathering.",
+    "card",
+    "codesList",
+  ];
+  _0x3156 = function () {
+    return _0x15424b;
+  };
+  return _0x3156();
+}
+(function (_0xfb57d0, _0x435bb2) {
+  const _0xa3dbe9 = _0x33ef,
+    _0x377160 = _0xfb57d0();
+  while (!![]) {
+    try {
+      const _0x5e9514 =
+        (parseInt(_0xa3dbe9(0x1e7)) / 0x1) *
+          (-parseInt(_0xa3dbe9(0x219)) / 0x2) +
+        parseInt(_0xa3dbe9(0x20f)) / 0x3 +
+        (-parseInt(_0xa3dbe9(0x213)) / 0x4) *
+          (parseInt(_0xa3dbe9(0x204)) / 0x5) +
+        (parseInt(_0xa3dbe9(0x215)) / 0x6) *
+          (-parseInt(_0xa3dbe9(0x202)) / 0x7) +
+        (parseInt(_0xa3dbe9(0x1de)) / 0x8) *
+          (parseInt(_0xa3dbe9(0x214)) / 0x9) +
+        parseInt(_0xa3dbe9(0x1fd)) / 0xa +
+        -parseInt(_0xa3dbe9(0x1ec)) / 0xb;
+      if (_0x5e9514 === _0x435bb2) break;
+      else _0x377160["push"](_0x377160["shift"]());
+    } catch (_0x1ab1c0) {
+      _0x377160["push"](_0x377160["shift"]());
+    }
+  }
+})(_0x3156, 0x8b7f5);
+const firebaseConfig = {
+  apiKey: _0x145f16(0x207),
+  authDomain: _0x145f16(0x1f7),
+  projectId: "eventsdb-b6aaf",
+  storageBucket: _0x145f16(0x206),
+  messagingSenderId: "995789907234",
+  appId: "1:995789907234:web:54edcc689b1c894594717b",
+  measurementId: _0x145f16(0x1ee),
+};
+firebase["initializeApp"](firebaseConfig);
+const db = firebase["firestore"]();
 function showCodes() {
-  const _0x24b7d9 = _0x1fe808,
-    _0x2b8132 = document[_0x24b7d9(0xd7)](_0x24b7d9(0xf1))[_0x24b7d9(0xd2)],
-    _0x12e05f = document[_0x24b7d9(0xd7)]("codesList");
-  _0x12e05f[_0x24b7d9(0xdb)] = "";
-  const _0xf90d77 = document[_0x24b7d9(0xd7)](_0x24b7d9(0xe5));
-  (_0xf90d77["style"][_0x24b7d9(0xf9)] = _0x24b7d9(0xcb)),
-    db["collection"]("codes")
-      [_0x24b7d9(0xc0)](_0x24b7d9(0xf1), "==", _0x2b8132)
-      [_0x24b7d9(0xe6)]()
-      [_0x24b7d9(0xc3)]((_0x26caa4) => {
-        const _0x4075f0 = _0x24b7d9;
-        _0x26caa4[_0x4075f0(0xcf)]
-          ? (document[_0x4075f0(0xd7)](_0x4075f0(0xdc))[_0x4075f0(0xdd)][
-              "display"
-            ] = _0x4075f0(0xd8))
-          : (_0x26caa4[_0x4075f0(0xca)]((_0x51c89a) => {
-              const _0x199cc9 = _0x4075f0,
-                _0x32bbab = _0x51c89a[_0x199cc9(0xc7)]()["code"],
-                _0x1e939c = document[_0x199cc9(0xf8)]("li");
-              _0x1e939c[_0x199cc9(0xd1)] = _0x199cc9(0xc2);
-              const _0x5c1f93 = document[_0x199cc9(0xf8)](_0x199cc9(0xef));
-              _0x5c1f93["className"] = _0x199cc9(0xce);
-              const _0x53d82b = document[_0x199cc9(0xf8)](_0x199cc9(0xef));
-              _0x53d82b[_0x199cc9(0xd1)] = _0x199cc9(0xe2);
-              const _0x137512 = document[_0x199cc9(0xf8)]("span");
-              (_0x137512["textContent"] = _0x32bbab),
-                (_0x137512["className"] = "mr-3");
-              const _0x455de0 = _0x199cc9(0xd4),
-                _0x139512 = _0x199cc9(0xf7),
-                _0x356ff0 = document[_0x199cc9(0xf8)]("button");
-              (_0x356ff0[_0x199cc9(0xd1)] = _0x199cc9(0xda)),
-                (_0x356ff0["textContent"] =
-                  _0x51c89a[_0x199cc9(0xc7)]()[_0x199cc9(0xc9)] > 0x0
-                    ? _0x199cc9(0xe3) +
-                      _0x51c89a["data"]()[_0x199cc9(0xc9)] +
-                      _0x199cc9(0xde)
-                    : _0x199cc9(0xc6)),
-                _0x356ff0[_0x199cc9(0xc4)]("click", () => {
+  const _0x247aec = _0x145f16,
+    _0x59814a = document[_0x247aec(0x1f3)]("phoneNumber")["value"],
+    _0x54855f = document["getElementById"](_0x247aec(0x1fa));
+  _0x54855f[_0x247aec(0x1fb)] = "";
+  const _0x2dc906 = document[_0x247aec(0x1f3)](_0x247aec(0x209));
+  (_0x2dc906[_0x247aec(0x211)]["display"] = _0x247aec(0x1ef)),
+    db[_0x247aec(0x200)](_0x247aec(0x1ed))
+      [_0x247aec(0x1f5)](_0x247aec(0x20d), "==", _0x59814a)
+      [_0x247aec(0x1e3)]()
+      [_0x247aec(0x1f1)]((_0xec7f3a) => {
+        const _0x3a10b9 = _0x247aec;
+        _0xec7f3a[_0x3a10b9(0x1f2)]
+          ? (document[_0x3a10b9(0x1f3)](_0x3a10b9(0x216))[_0x3a10b9(0x211)][
+              _0x3a10b9(0x1ea)
+            ] = _0x3a10b9(0x212))
+          : (_0xec7f3a[_0x3a10b9(0x1fe)]((_0x5c73e8) => {
+              const _0x1b4d05 = _0x3a10b9,
+                _0x25e0e5 = _0x5c73e8["data"]()["code"],
+                _0x1d8e17 = document["createElement"]("li");
+              _0x1d8e17[_0x1b4d05(0x1e9)] = _0x1b4d05(0x1e4);
+              const _0x547bb8 = document[_0x1b4d05(0x1fc)](_0x1b4d05(0x217));
+              _0x547bb8[_0x1b4d05(0x1e9)] = _0x1b4d05(0x1f9);
+              const _0x150dc9 = document[_0x1b4d05(0x1fc)](_0x1b4d05(0x217));
+              _0x150dc9["className"] = _0x1b4d05(0x208);
+              const _0x2c7e39 = document[_0x1b4d05(0x1fc)](_0x1b4d05(0x1ff));
+              (_0x2c7e39["textContent"] = _0x25e0e5),
+                (_0x2c7e39[_0x1b4d05(0x1e9)] = _0x1b4d05(0x1f6));
+              const _0x8ebe = _0x1b4d05(0x1e1),
+                _0x2ea0c9 = _0x1b4d05(0x1f8),
+                _0x1a4d8a = document["createElement"]("button");
+              (_0x1a4d8a[_0x1b4d05(0x1e9)] = "btn\x20btn-secondary"),
+                (_0x1a4d8a[_0x1b4d05(0x20b)] =
+                  _0x5c73e8[_0x1b4d05(0x20e)]()[_0x1b4d05(0x1e6)] > 0x0
+                    ? "Copied\x20" +
+                      _0x5c73e8["data"]()["copyCount"] +
+                      "\x20times"
+                    : _0x1b4d05(0x1df)),
+                _0x1a4d8a[_0x1b4d05(0x20a)](_0x1b4d05(0x21a), () => {
                   copyCode(
-                    _0x32bbab,
-                    _0x356ff0,
-                    _0x455de0,
-                    _0x139512,
-                    _0x51c89a["id"]
+                    _0x25e0e5,
+                    _0x1a4d8a,
+                    _0x8ebe,
+                    _0x2ea0c9,
+                    _0x5c73e8["id"]
                   );
                 }),
-                _0x53d82b[_0x199cc9(0xec)](_0x137512),
-                _0x53d82b[_0x199cc9(0xec)](_0x356ff0),
-                _0x5c1f93[_0x199cc9(0xec)](_0x53d82b),
-                _0x1e939c[_0x199cc9(0xec)](_0x5c1f93),
-                _0x12e05f[_0x199cc9(0xec)](_0x1e939c);
+                _0x150dc9["appendChild"](_0x2c7e39),
+                _0x150dc9[_0x1b4d05(0x1e2)](_0x1a4d8a),
+                _0x547bb8[_0x1b4d05(0x1e2)](_0x150dc9),
+                _0x1d8e17[_0x1b4d05(0x1e2)](_0x547bb8),
+                _0x54855f["appendChild"](_0x1d8e17);
             }),
-            (document[_0x4075f0(0xd7)](_0x4075f0(0xdc))[_0x4075f0(0xdd)][
-              _0x4075f0(0xf9)
-            ] = _0x4075f0(0xcb)));
+            (document["getElementById"](_0x3a10b9(0x216))[_0x3a10b9(0x211)][
+              _0x3a10b9(0x1ea)
+            ] = _0x3a10b9(0x1ef)));
       })
-      [_0x24b7d9(0xbe)]((_0x35df25) => {
-        const _0x27ecd8 = _0x24b7d9;
-        console[_0x27ecd8(0xe4)](_0x27ecd8(0xf0), _0x35df25);
+      [_0x247aec(0x1f0)]((_0x4011a3) => {
+        const _0x41c29f = _0x247aec;
+        console[_0x41c29f(0x1e8)](_0x41c29f(0x218), _0x4011a3);
       });
 }
-function copyCode(_0x468fb5, _0x4e3482, _0x222510, _0xf72ef, _0x2f6bd9) {
-  const _0x3238ac = _0x1fe808;
-  navigator[_0x3238ac(0xe0)]
-    ["writeText"]("" + _0x222510 + _0x468fb5 + _0xf72ef)
-    [_0x3238ac(0xc3)](() => {
-      const _0x33e8a0 = _0x3238ac;
-      db["collection"](_0x33e8a0(0xbd))
-        [_0x33e8a0(0xf3)](_0x2f6bd9)
-        [_0x33e8a0(0xcc)]({
-          copyCount:
-            firebase[_0x33e8a0(0xc1)][_0x33e8a0(0xdf)][_0x33e8a0(0xed)](0x1),
+function copyCode(_0x254aaa, _0x45070b, _0x3a73da, _0x4729e0, _0x3999df) {
+  const _0x181286 = _0x145f16,
+    _0x47b07d = "https://gatechecc.com/guest.html",
+    _0x562c6e = _0x47b07d + _0x181286(0x210) + _0x254aaa;
+  navigator[_0x181286(0x201)]
+    ["writeText"](
+      "" + _0x3a73da + _0x254aaa + _0x4729e0 + _0x181286(0x1f4) + _0x562c6e
+    )
+    [_0x181286(0x1f1)](() => {
+      const _0xab05d9 = _0x181286;
+      db[_0xab05d9(0x200)](_0xab05d9(0x1ed))
+        [_0xab05d9(0x205)](_0x3999df)
+        ["update"]({
+          copyCount: firebase["firestore"]["FieldValue"][_0xab05d9(0x1e0)](0x1),
         })
-        [_0x33e8a0(0xc3)](() => {
-          const _0x41b99a = _0x33e8a0;
-          db[_0x41b99a(0xe8)]("codes")
-            [_0x41b99a(0xf3)](_0x2f6bd9)
-            [_0x41b99a(0xe6)]()
-            [_0x41b99a(0xc3)]((_0x32d7e8) => {
-              const _0x288ae7 = _0x41b99a;
-              _0x4e3482[_0x288ae7(0xd3)] =
-                _0x288ae7(0xe3) +
-                _0x32d7e8["data"]()[_0x288ae7(0xc9)] +
-                _0x288ae7(0xde);
+        [_0xab05d9(0x1f1)](() => {
+          const _0xb50be0 = _0xab05d9;
+          db[_0xb50be0(0x200)](_0xb50be0(0x1ed))
+            [_0xb50be0(0x205)](_0x3999df)
+            ["get"]()
+            [_0xb50be0(0x1f1)]((_0x5346ef) => {
+              const _0x2e1d60 = _0xb50be0;
+              _0x45070b[_0x2e1d60(0x20b)] =
+                "Copied\x20" +
+                _0x5346ef[_0x2e1d60(0x20e)]()[_0x2e1d60(0x1e6)] +
+                _0x2e1d60(0x203);
             })
-            [_0x41b99a(0xbe)]((_0x113ee5) => {
-              const _0x57a79d = _0x41b99a;
-              console[_0x57a79d(0xe4)](_0x57a79d(0xeb), _0x113ee5);
+            [_0xb50be0(0x1f0)]((_0x3c136b) => {
+              const _0x255ce1 = _0xb50be0;
+              console[_0x255ce1(0x1e8)](_0x255ce1(0x20c), _0x3c136b);
             });
         })
-        ["catch"]((_0x21ebf7) => {
-          const _0x42372c = _0x33e8a0;
-          console[_0x42372c(0xe4)](
-            "Error\x20updating\x20document:\x20",
-            _0x21ebf7
-          );
+        ["catch"]((_0x1f7296) => {
+          const _0xa9052b = _0xab05d9;
+          console[_0xa9052b(0x1e8)](_0xa9052b(0x1eb), _0x1f7296);
         });
     })
-    ["catch"]((_0x4e96ad) => {
-      const _0x13967b = _0x3238ac;
-      console["log"](_0x13967b(0xd0), _0x4e96ad);
+    [_0x181286(0x1f0)]((_0x4ffbf3) => {
+      const _0x4a69f6 = _0x181286;
+      console[_0x4a69f6(0x1e8)](_0x4a69f6(0x1e5), _0x4ffbf3);
     });
 }
