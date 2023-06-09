@@ -75,8 +75,13 @@ function showCodes() {
 }
 
 function copyCode(code, button, wlcTxt, wlcTxt2, docId) {
+  const baseUrl = "https://gatechecc.com/guest.html"; // The URL of the page where the second script is used.
+  const linkToCopy = `${baseUrl}?code=${code}`; // Appends the code as a query parameter.
+
   navigator.clipboard
-    .writeText(`${wlcTxt}${code}${wlcTxt2}`)
+    .writeText(
+      `${wlcTxt}${code}${wlcTxt2} Follow this link to view the QR Code and Image: ${linkToCopy}`
+    )
     .then(() => {
       // Update Firestore with the incremented copy count
       db.collection("codes")
