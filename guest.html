@@ -21,7 +21,7 @@
         }
 
         body {
-            background-color: #f8f9fa;
+            background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
             color: #212529;
             display: flex;
             flex-direction: column;
@@ -30,14 +30,19 @@
 
         .container {
             max-width: 960px;
+            padding-top: 5%;
         }
 
         .card {
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
             height: 600px;
             overflow: hidden;
-            border: 1px solid var('black');
-            /* update border to theme color */
+            /* Add a background color to make the card stand out more */
+            background-color: #ffffff;
+            border-radius: 15px;
+            /* Making the card's corners round */
+            border: none;
+            /* Removing the border */
         }
 
         .card-img-top {
@@ -203,7 +208,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
     <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
 
-    <script src="guest.js"></script>
+    <script src="obfustaced/guest.js"></script>
 </body>
 
 </html>
