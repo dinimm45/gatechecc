@@ -1,0 +1,74 @@
+var _0x374aa9 = _0x3acf;
+function _0x3acf(_0xd837f, _0x1a9167) {
+  var _0x34e799 = _0x34e7();
+  return (
+    (_0x3acf = function (_0x3acf67, _0x29ad31) {
+      _0x3acf67 = _0x3acf67 - 0xc1;
+      var _0x3d5c4c = _0x34e799[_0x3acf67];
+      return _0x3d5c4c;
+    }),
+    _0x3acf(_0xd837f, _0x1a9167)
+  );
+}
+function _0x34e7() {
+  var _0x1a321a = [
+    "addEventListener",
+    "checkin",
+    "href",
+    "134018rjrBHq",
+    "7ckmbta",
+    "30821846qFNZZf",
+    "1074978EzHzWL",
+    "displayempl.html",
+    "4188112WVsptW",
+    "203955HLiWVY",
+    "location",
+    "152JDFJGk",
+    "12kdiNzD",
+    "263270YZbXwo",
+    "35510NfPYwh",
+    "getElementById",
+    "scanempl.html",
+    "click",
+    "342hSmQxL",
+    "102sxVQnO",
+  ];
+  _0x34e7 = function () {
+    return _0x1a321a;
+  };
+  return _0x34e7();
+}
+(function (_0x33fb46, _0x53384f) {
+  var _0x17f83b = _0x3acf,
+    _0x477cf9 = _0x33fb46();
+  while (!![]) {
+    try {
+      var _0x4406da =
+        (parseInt(_0x17f83b(0xc4)) / 0x1) * (parseInt(_0x17f83b(0xc3)) / 0x2) +
+        -parseInt(_0x17f83b(0xc6)) / 0x3 +
+        -parseInt(_0x17f83b(0xc8)) / 0x4 +
+        (parseInt(_0x17f83b(0xc9)) / 0x5) * (-parseInt(_0x17f83b(0xd3)) / 0x6) +
+        (-parseInt(_0x17f83b(0xcd)) / 0x7) * (parseInt(_0x17f83b(0xcb)) / 0x8) +
+        (parseInt(_0x17f83b(0xd2)) / 0x9) * (parseInt(_0x17f83b(0xce)) / 0xa) +
+        (parseInt(_0x17f83b(0xc5)) / 0xb) * (parseInt(_0x17f83b(0xcc)) / 0xc);
+      if (_0x4406da === _0x53384f) break;
+      else _0x477cf9["push"](_0x477cf9["shift"]());
+    } catch (_0x557025) {
+      _0x477cf9["push"](_0x477cf9["shift"]());
+    }
+  }
+})(_0x34e7, 0x90ad4),
+  document[_0x374aa9(0xcf)]("displayhr")[_0x374aa9(0xd4)](
+    _0x374aa9(0xd1),
+    function () {
+      var _0x518b53 = _0x374aa9;
+      window[_0x518b53(0xca)][_0x518b53(0xc2)] = _0x518b53(0xc7);
+    }
+  ),
+  document[_0x374aa9(0xcf)](_0x374aa9(0xc1))[_0x374aa9(0xd4)](
+    "click",
+    function () {
+      var _0x1ec9a9 = _0x374aa9;
+      window[_0x1ec9a9(0xca)][_0x1ec9a9(0xc2)] = _0x1ec9a9(0xd0);
+    }
+  );
