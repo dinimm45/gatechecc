@@ -59,7 +59,8 @@
 
             <input type="text" placeholder="Employer First Name" id="firstName" v-model="companyName" />
             <input type="text" placeholder="Employer Last Name" id="lastName" v-model="lastName" />
-            <input type="tel" pattern="[0-9]*" placeholder="Phone Number" id="number" v-model="number" />
+            <input type="tel" pattern="[0-9]*" placeholder="Phone Number" id="number" v-model="number"
+                oninput="this.value = this.value.replace(/[^0-9]/g, '')" />
 
             <input style="display: none;" type="date" placeholder="Valid Until" id="validity" v-model="validity" />
             <ul>
