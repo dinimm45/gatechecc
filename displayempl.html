@@ -144,6 +144,43 @@
             outline: none;
             transition: border-color 0.3s ease;
         }
+
+        .employer-item .card {
+            border: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .employer-item .card-body {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            /* Making the content stack vertically */
+            justify-content: space-between;
+        }
+
+        .employer-item .card-body span {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .employer-item .card-body span:last-child {
+            margin-bottom: 0;
+        }
+
+        .employer-item .dropdown .dropdown-menu {
+            max-height: 200px;
+            overflow-y: auto;
+            /* If there are many records, it becomes scrollable */
+        }
+
+        /* Added styles for dropdown item */
+        .employer-item .dropdown-item {
+            white-space: normal;
+            /* To ensure text wraps correctly */
+        }
     </style>
 </head>
 
@@ -213,7 +250,7 @@
     <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-storage.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
 
-    <script src="obfustaced/displeyempl.js"> </script>
+    <script src="js/displayempl.js"> </script>
 </body>
 
 </html>
