@@ -1,228 +1,237 @@
-(function (_0x5a7cfd, _0x391520) {
-  const _0x34a78e = _0x5643,
-    _0x398cfc = _0x5a7cfd();
+function _0x3519(_0x2de57e, _0x174a1e) {
+  const _0xac8929 = _0xac89();
+  return (
+    (_0x3519 = function (_0x3519f7, _0x58a53a) {
+      _0x3519f7 = _0x3519f7 - 0x7c;
+      let _0x1a0912 = _0xac8929[_0x3519f7];
+      return _0x1a0912;
+    }),
+    _0x3519(_0x2de57e, _0x174a1e)
+  );
+}
+function _0xac89() {
+  const _0x907239 = [
+    "refresh",
+    "display",
+    "Invalid\x20QR\x20code.\x20Please\x20scan\x20a\x20QR\x20code\x20that\x20includes\x20your\x20company\x20name.",
+    "BrowserMultiFormatReader",
+    "click",
+    "includes",
+    "ref",
+    "NotFoundException",
+    "lastEvent",
+    "Shaqada\x20waad\x20bilaawday",
+    "reload",
+    "995789907234",
+    "deviceId",
+    "802hhFkUv",
+    "1733532XXKTEy",
+    "checkInTimes",
+    "then",
+    "490FPNHYW",
+    "getElementById",
+    "nonevalid",
+    "eventsdb-b6aaf.firebaseapp.com",
+    "eventsdb-b6aaf",
+    "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js",
+    "274284yyRLnm",
+    "checkIn",
+    "outputData",
+    "G-J0DC7YW8J4",
+    "text",
+    "phoneNumber",
+    "checkOut",
+    "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js",
+    "32UwuQnf",
+    "kind",
+    "Check-out\x20timestamp\x20has\x20been\x20updated",
+    "mediaDevices",
+    "reset",
+    "240NRoiLQ",
+    "No\x20matching\x20employers\x20found.",
+    "companyName",
+    "Check-in\x20timestamp\x20has\x20been\x20updated",
+    "value",
+    "environment",
+    "log",
+    "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
+    "none",
+    "filter",
+    "enumerateDevices",
+    "https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js",
+    "4497Dnlbhg",
+    "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js",
+    "style",
+    "313810dTedSy",
+    "videoinput",
+    "block",
+    "data",
+    "4638bgXuvl",
+    "employers",
+    "363408EJSDJq",
+    "forEach",
+    "addEventListener",
+    "companies",
+    "video",
+    "eventsdb-b6aaf.appspot.com",
+    "checkOutTimes",
+    "183798nJmKzA",
+    "error",
+    "loading",
+    "77WEsntd",
+  ];
+  _0xac89 = function () {
+    return _0x907239;
+  };
+  return _0xac89();
+}
+(function (_0x13bcf4, _0x5a2ea1) {
+  const _0x51c2b9 = _0x3519,
+    _0xf9eafa = _0x13bcf4();
   while (!![]) {
     try {
-      const _0x1012ad =
-        parseInt(_0x34a78e(0x176)) / 0x1 +
-        (parseInt(_0x34a78e(0x163)) / 0x2) *
-          (parseInt(_0x34a78e(0x198)) / 0x3) +
-        (parseInt(_0x34a78e(0x195)) / 0x4) *
-          (parseInt(_0x34a78e(0x183)) / 0x5) +
-        (parseInt(_0x34a78e(0x168)) / 0x6) *
-          (-parseInt(_0x34a78e(0x182)) / 0x7) +
-        (parseInt(_0x34a78e(0x180)) / 0x8) *
-          (-parseInt(_0x34a78e(0x16b)) / 0x9) +
-        -parseInt(_0x34a78e(0x184)) / 0xa +
-        parseInt(_0x34a78e(0x17c)) / 0xb;
-      if (_0x1012ad === _0x391520) break;
-      else _0x398cfc["push"](_0x398cfc["shift"]());
-    } catch (_0x2bfcf5) {
-      _0x398cfc["push"](_0x398cfc["shift"]());
+      const _0x548afd =
+        -parseInt(_0x51c2b9(0xb3)) / 0x1 +
+        (parseInt(_0x51c2b9(0x80)) / 0x2) * (-parseInt(_0x51c2b9(0xa3)) / 0x3) +
+        (parseInt(_0x51c2b9(0x92)) / 0x4) * (-parseInt(_0x51c2b9(0xa6)) / 0x5) +
+        (parseInt(_0x51c2b9(0xaa)) / 0x6) * (parseInt(_0x51c2b9(0x84)) / 0x7) +
+        parseInt(_0x51c2b9(0xac)) / 0x8 +
+        (-parseInt(_0x51c2b9(0x8a)) / 0x9) *
+          (-parseInt(_0x51c2b9(0x97)) / 0xa) +
+        (parseInt(_0x51c2b9(0xb6)) / 0xb) * (parseInt(_0x51c2b9(0x81)) / 0xc);
+      if (_0x548afd === _0x5a2ea1) break;
+      else _0xf9eafa["push"](_0xf9eafa["shift"]());
+    } catch (_0x68cf20) {
+      _0xf9eafa["push"](_0xf9eafa["shift"]());
     }
   }
-})(_0x85d3, 0xd9b45),
+})(_0xac89, 0x878ba),
   (async () => {
-    const _0x46cb4e = _0x5643,
-      { initializeApp: _0x5a0706 } = await import(_0x46cb4e(0x18b)),
-      { getAnalytics: _0x5a8441 } = await import(_0x46cb4e(0x17a)),
-      { getAuth: _0x2627f8 } = await import(_0x46cb4e(0x167)),
+    const _0x20192c = _0x3519,
+      { initializeApp: _0x162771 } = await import(_0x20192c(0x89)),
+      { getAnalytics: _0x435e04 } = await import(_0x20192c(0x91)),
+      { getAuth: _0x5d90a9 } = await import(_0x20192c(0xa4)),
       {
-        getFirestore: _0x48d4b8,
-        doc: _0x4f974b,
-        getDocs: _0x4adaf9,
-        collection: _0x56d188,
-        deleteDoc: _0xba531f,
-        query: _0x1b310e,
-        where: _0x4d2fca,
-        updateDoc: _0x659b23,
-        serverTimestamp: _0x34c0fb,
-        arrayUnion: _0x44f192,
-      } = await import(
-        "https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js"
-      ),
-      _0x35179d = {
-        apiKey: _0x46cb4e(0x18d),
-        authDomain: _0x46cb4e(0x194),
-        projectId: _0x46cb4e(0x171),
-        storageBucket: "eventsdb-b6aaf.appspot.com",
-        messagingSenderId: _0x46cb4e(0x187),
-        appId: _0x46cb4e(0x172),
-        measurementId: _0x46cb4e(0x16d),
+        getFirestore: _0x482c52,
+        doc: _0x388281,
+        getDocs: _0x5318eb,
+        collection: _0x3c83a2,
+        deleteDoc: _0x558ebb,
+        query: _0x25f5c3,
+        where: _0xcb896a,
+        updateDoc: _0x11a683,
+        serverTimestamp: _0x135345,
+        arrayUnion: _0x5a26ed,
+      } = await import(_0x20192c(0xa2)),
+      _0x29e095 = {
+        apiKey: _0x20192c(0x9e),
+        authDomain: _0x20192c(0x87),
+        projectId: _0x20192c(0x88),
+        storageBucket: _0x20192c(0xb1),
+        messagingSenderId: _0x20192c(0x7e),
+        appId: "1:995789907234:web:54edcc689b1c894594717b",
+        measurementId: _0x20192c(0x8d),
       },
-      _0x4c8be6 = _0x5a0706(_0x35179d),
-      _0x51bff1 = _0x5a8441(_0x4c8be6),
-      _0x68df6 = _0x48d4b8(),
-      _0x53a1dd = document[_0x46cb4e(0x16e)](_0x46cb4e(0x197)),
-      _0x3a2118 = document[_0x46cb4e(0x16e)](_0x46cb4e(0x16c)),
-      _0x573d29 = document["getElementById"](_0x46cb4e(0x16a)),
-      _0x2ac868 = document["getElementById"](_0x46cb4e(0x192)),
-      _0x26fbe6 = document["getElementById"]("refresh"),
-      _0x4d2775 = document[_0x46cb4e(0x16e)](_0x46cb4e(0x179)),
-      _0x24801a = document[_0x46cb4e(0x16e)](_0x46cb4e(0x190)),
-      _0x27838b = document[_0x46cb4e(0x16e)](_0x46cb4e(0x199)),
-      _0x26915a = new ZXing[_0x46cb4e(0x178)](),
-      _0xc8a8eb = async () => {
-        const _0x8f4ad4 = _0x46cb4e,
-          _0x7e21a1 = await navigator[_0x8f4ad4(0x174)]["enumerateDevices"](),
-          _0x4b0f10 = _0x7e21a1[_0x8f4ad4(0x186)](
-            (_0x544aba) => _0x544aba[_0x8f4ad4(0x165)] === _0x8f4ad4(0x166)
+      _0x35bb3b = _0x162771(_0x29e095),
+      _0x2b1b60 = _0x435e04(_0x35bb3b),
+      _0xb26022 = _0x482c52(),
+      _0x59c649 = document[_0x20192c(0x85)](_0x20192c(0xb0)),
+      _0x149fdb = document["getElementById"](_0x20192c(0x8c)),
+      _0x8d6a1 = document[_0x20192c(0x85)]("valid"),
+      _0x57af31 = document[_0x20192c(0x85)](_0x20192c(0x86)),
+      _0x51c2c7 = document[_0x20192c(0x85)](_0x20192c(0xb7)),
+      _0xc36276 = document[_0x20192c(0x85)](_0x20192c(0xb4)),
+      _0x4e57be = document["getElementById"](_0x20192c(0x99)),
+      _0x3b9ac8 = document[_0x20192c(0x85)](_0x20192c(0x8f)),
+      _0x467afa = document[_0x20192c(0x85)](_0x20192c(0xb5)),
+      _0x22dd0d = new ZXing[_0x20192c(0xba)](),
+      _0x2351d0 = async () => {
+        const _0x892f2b = _0x20192c,
+          _0x1f523e = await navigator[_0x892f2b(0x95)][_0x892f2b(0xa1)](),
+          _0x374032 = _0x1f523e[_0x892f2b(0xa0)](
+            (_0x531dc8) => _0x531dc8[_0x892f2b(0x93)] === _0x892f2b(0xa7)
           ),
-          _0x31d90a = _0x4b0f10[0x0];
+          _0x1934a2 = _0x374032[0x0];
         return {
-          deviceId: _0x31d90a[_0x8f4ad4(0x19b)],
+          deviceId: _0x1934a2[_0x892f2b(0x7f)],
           width: { ideal: 0x780 },
           height: { ideal: 0x438 },
-          facingMode: _0x8f4ad4(0x196),
+          facingMode: _0x892f2b(0x9c),
           focusMode: "continuous",
         };
       };
-    _0xc8a8eb()[_0x46cb4e(0x18e)]((_0x26aae0) => {
-      const _0x413884 = _0x46cb4e;
-      _0x26915a[_0x413884(0x181)](
+    _0x2351d0()[_0x20192c(0x83)]((_0x14093a) => {
+      _0x22dd0d["decodeFromVideoDevice"](
         undefined,
-        _0x53a1dd,
-        async (_0x4b50ae, _0x516e8a) => {
-          const _0x354abf = _0x413884;
-          if (_0x4b50ae) {
-            const _0x3126fa = _0x4b50ae[_0x354abf(0x175)],
-              _0x248c16 = _0x3126fa,
-              _0x1b4b7e = _0x27838b[_0x354abf(0x177)],
-              _0x113601 = _0x1b310e(
-                _0x56d188(
-                  _0x68df6,
-                  _0x354abf(0x18c),
-                  _0x248c16,
-                  _0x354abf(0x185)
+        _0x59c649,
+        async (_0x4c12d6, _0xfd22ac) => {
+          const _0x15620e = _0x3519;
+          _0x467afa["style"]["display"] = _0x15620e(0x9f);
+          if (_0x4c12d6) {
+            _0x22dd0d[_0x15620e(0x96)](),
+              (_0x51c2c7[_0x15620e(0xa5)][_0x15620e(0xb8)] = _0x15620e(0xa8));
+            const _0x137c4a = _0x4c12d6[_0x15620e(0x8e)],
+              _0x34de9c = _0x137c4a,
+              _0x48c641 = _0x3b9ac8[_0x15620e(0x9b)],
+              _0x1881ec = _0x25f5c3(
+                _0x3c83a2(
+                  _0xb26022,
+                  _0x15620e(0xaf),
+                  _0x34de9c,
+                  _0x15620e(0xab)
                 ),
-                _0x4d2fca(_0x354abf(0x199), "==", _0x1b4b7e)
+                _0xcb896a("phoneNumber", "==", _0x48c641)
               ),
-              _0x179714 = await _0x4adaf9(_0x113601);
-            if (_0x179714[_0x354abf(0x193)]) {
-              console["log"]("No\x20matching\x20employers\x20found."),
-                (_0x4d2775["style"][_0x354abf(0x162)] = _0x354abf(0x18a));
+              _0x2ef3f0 = await _0x5318eb(_0x1881ec);
+            if (_0x2ef3f0["empty"]) {
+              console[_0x15620e(0x9d)](_0x15620e(0x98)),
+                (_0xc36276[_0x15620e(0xa5)]["display"] = _0x15620e(0xa8));
               return;
             }
-            _0x3126fa[_0x354abf(0x173)](_0x248c16)
-              ? _0x179714["forEach"]((_0x2eb478) => {
-                  const _0x2d6db4 = _0x354abf,
-                    _0x220923 = _0x2eb478[_0x2d6db4(0x169)](),
-                    _0x56aeea = new Date();
+            _0x137c4a[_0x15620e(0xbc)](_0x34de9c)
+              ? _0x2ef3f0[_0x15620e(0xad)]((_0x9c599) => {
+                  const _0x3c96bb = _0x15620e,
+                    _0x4bd9b7 = _0x9c599[_0x3c96bb(0xa9)](),
+                    _0x38c8fa = new Date();
                   if (
-                    _0x220923[_0x2d6db4(0x18f)] === _0x2d6db4(0x17e) ||
-                    !_0x220923["lastEvent"]
+                    _0x4bd9b7[_0x3c96bb(0xbf)] === _0x3c96bb(0x90) ||
+                    !_0x4bd9b7["lastEvent"]
                   ) {
-                    console[_0x2d6db4(0x16f)](_0x2d6db4(0x17d)),
-                      alert(_0x2d6db4(0x189)),
-                      (_0x4d2775[_0x2d6db4(0x191)][_0x2d6db4(0x162)] = "none");
-                    const _0x58151a = _0x220923["checkInTimes"] || [];
-                    _0x659b23(_0x2eb478[_0x2d6db4(0x164)], {
-                      lastCheckInTime: _0x34c0fb(),
-                      checkInTimes: [..._0x58151a, _0x56aeea],
-                      lastEvent: _0x2d6db4(0x161),
+                    console[_0x3c96bb(0x9d)](_0x3c96bb(0x9a)),
+                      alert(_0x3c96bb(0x7c)),
+                      (_0xc36276["style"]["display"] = "none");
+                    const _0x4772bc = _0x4bd9b7[_0x3c96bb(0x82)] || [];
+                    _0x11a683(_0x9c599[_0x3c96bb(0xbd)], {
+                      lastCheckInTime: _0x135345(),
+                      checkInTimes: [..._0x4772bc, _0x38c8fa],
+                      lastEvent: _0x3c96bb(0x8b),
                     });
                   } else {
-                    if (_0x220923[_0x2d6db4(0x18f)] === _0x2d6db4(0x161)) {
-                      console[_0x2d6db4(0x16f)](_0x2d6db4(0x188)),
-                        alert(_0x2d6db4(0x17f)),
-                        (_0x4d2775["style"][_0x2d6db4(0x162)] =
-                          _0x2d6db4(0x170));
-                      const _0x42f2a9 = _0x220923[_0x2d6db4(0x19a)] || [];
-                      _0x659b23(_0x2eb478["ref"], {
-                        lastCheckOutTime: _0x34c0fb(),
-                        checkOutTimes: [..._0x42f2a9, _0x56aeea],
-                        lastEvent: "checkOut",
+                    if (_0x4bd9b7[_0x3c96bb(0xbf)] === "checkIn") {
+                      console[_0x3c96bb(0x9d)](_0x3c96bb(0x94)),
+                        alert("Shaqada\x20waad\x20ka\x20baxday"),
+                        (_0xc36276[_0x3c96bb(0xa5)][_0x3c96bb(0xb8)] =
+                          _0x3c96bb(0x9f));
+                      const _0x421437 = _0x4bd9b7[_0x3c96bb(0xb2)] || [];
+                      _0x11a683(_0x9c599[_0x3c96bb(0xbd)], {
+                        lastCheckOutTime: _0x135345(),
+                        checkOutTimes: [..._0x421437, _0x38c8fa],
+                        lastEvent: _0x3c96bb(0x90),
                       });
                     }
                   }
                 })
-              : console["log"](
-                  "Invalid\x20QR\x20code.\x20Please\x20scan\x20a\x20QR\x20code\x20that\x20includes\x20your\x20company\x20name."
-                );
+              : console["log"](_0x15620e(0xb9));
           }
-          _0x516e8a &&
-            !(_0x516e8a instanceof ZXing[_0x354abf(0x17b)]) &&
-            console[_0x354abf(0x179)](_0x516e8a);
+          _0xfd22ac &&
+            !(_0xfd22ac instanceof ZXing[_0x15620e(0xbe)]) &&
+            console[_0x15620e(0xb4)](_0xfd22ac);
         },
-        _0x26aae0
+        _0x14093a
       );
-    });
-  })();
-function _0x5643(_0x53a3b7, _0x2c978c) {
-  const _0x85d3a2 = _0x85d3();
-  return (
-    (_0x5643 = function (_0x564365, _0x56594a) {
-      _0x564365 = _0x564365 - 0x161;
-      let _0x47246a = _0x85d3a2[_0x564365];
-      return _0x47246a;
     }),
-    _0x5643(_0x53a3b7, _0x2c978c)
-  );
-}
-function _0x85d3() {
-  const _0x444b39 = [
-    "companyName",
-    "style",
-    "nonevalid",
-    "empty",
-    "eventsdb-b6aaf.firebaseapp.com",
-    "135212UTkRtk",
-    "environment",
-    "video",
-    "669IQpdhK",
-    "phoneNumber",
-    "checkOutTimes",
-    "deviceId",
-    "checkIn",
-    "display",
-    "13202jXmgBf",
-    "ref",
-    "kind",
-    "videoinput",
-    "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js",
-    "6mujNAA",
-    "data",
-    "valid",
-    "27ylKgrI",
-    "outputData",
-    "G-J0DC7YW8J4",
-    "getElementById",
-    "log",
-    "none",
-    "eventsdb-b6aaf",
-    "1:995789907234:web:54edcc689b1c894594717b",
-    "includes",
-    "mediaDevices",
-    "text",
-    "697989QfCWHC",
-    "value",
-    "BrowserMultiFormatReader",
-    "error",
-    "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js",
-    "NotFoundException",
-    "22094435sOpgfS",
-    "Check-in\x20timestamp\x20has\x20been\x20updated",
-    "checkOut",
-    "Shaqada\x20waad\x20ka\x20baxday",
-    "3773576KdIHYj",
-    "decodeFromVideoDevice",
-    "11929505KQUGGd",
-    "110bAWWhT",
-    "9112400evHAlc",
-    "employers",
-    "filter",
-    "995789907234",
-    "Check-out\x20timestamp\x20has\x20been\x20updated",
-    "Shaqada\x20waad\x20bilaawday",
-    "block",
-    "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js",
-    "companies",
-    "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
-    "then",
-    "lastEvent",
-  ];
-  _0x85d3 = function () {
-    return _0x444b39;
-  };
-  return _0x85d3();
-}
+      _0x51c2c7[_0x20192c(0xae)](_0x20192c(0xbb), function () {
+        const _0xfda7e3 = _0x20192c;
+        location[_0xfda7e3(0x7d)]();
+      });
+  })();
