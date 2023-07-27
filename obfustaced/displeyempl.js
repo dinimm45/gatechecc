@@ -1,295 +1,341 @@
-const _0x55aa05 = _0x370a;
-(function (_0x3d748c, _0x55c701) {
-  const _0x27eb5d = _0x370a,
-    _0x5d1603 = _0x3d748c();
+const _0x354290 = _0x5620;
+function _0x361d() {
+  const _0x21ced1 = [
+    "filter",
+    "workingHours",
+    "checkIns",
+    "details",
+    "ads",
+    "getElementById",
+    "toDate",
+    "includes",
+    "initializeApp",
+    "lastName",
+    "log",
+    "Check-in:\x20",
+    "empty",
+    "\x20Last\x20check-in\x20:\x20",
+    "\x20hours",
+    "reverse",
+    "resetButton",
+    "lastCheckInTime",
+    "companies",
+    "style",
+    "fromNow",
+    "1390368RGQgZt",
+    "get",
+    "\x20Total\x20working\x20hours\x20(current\x20month):\x20",
+    "getMonth",
+    "card",
+    "toLowerCase",
+    "textContent",
+    "MMMM\x20YYYY",
+    "phoneNumber",
+    "183509HMHFrw",
+    "format",
+    "block",
+    "createElement",
+    "employers",
+    "18xxAQDc",
+    "errorMessage",
+    "display",
+    "span",
+    "searchEmployersInput",
+    "9772yHSlUa",
+    "push",
+    ",\x20Check-out:\x20",
+    "18HPWNJC",
+    "isSame",
+    "collection",
+    "className",
+    "data",
+    "Name\x20:\x20",
+    "G-J0DC7YW8J4",
+    "checkInTime",
+    "firstName",
+    "firestore",
+    "eventsdb-b6aaf.firebaseapp.com",
+    "checkOutTimes",
+    "sort",
+    "getFullYear",
+    "25165LajfVe",
+    "doc",
+    "innerHTML",
+    "Error\x20getting\x20documents:\x20",
+    "month",
+    "2947392FjyXNv",
+    "forEach",
+    "checkOutTime",
+    "summary",
+    "employersList",
+    "value",
+    "div",
+    "none",
+    "checkInTimes",
+    "companyName",
+    "toFixed",
+    "Phone\x20:\x20",
+    "keys",
+    "appendChild",
+    "card-body",
+    "Monthly\x20Working\x20Hours\x20Record",
+    "Total\x20for\x20",
+    "LLL",
+    ",\x20Working\x20hours:\x20",
+    "113523vNegii",
+    "isArray",
+    "1098600MZdDIp",
+  ];
+  _0x361d = function () {
+    return _0x21ced1;
+  };
+  return _0x361d();
+}
+(function (_0x458590, _0x3e400b) {
+  const _0x10bbae = _0x5620,
+    _0x24f8ec = _0x458590();
   while (!![]) {
     try {
-      const _0x347ae0 =
-        -parseInt(_0x27eb5d(0xe7)) / 0x1 +
-        parseInt(_0x27eb5d(0xd8)) / 0x2 +
-        parseInt(_0x27eb5d(0xd2)) / 0x3 +
-        (-parseInt(_0x27eb5d(0xce)) / 0x4) *
-          (-parseInt(_0x27eb5d(0xb3)) / 0x5) +
-        -parseInt(_0x27eb5d(0xb6)) / 0x6 +
-        -parseInt(_0x27eb5d(0xde)) / 0x7 +
-        -parseInt(_0x27eb5d(0xb9)) / 0x8;
-      if (_0x347ae0 === _0x55c701) break;
-      else _0x5d1603["push"](_0x5d1603["shift"]());
-    } catch (_0x24f979) {
-      _0x5d1603["push"](_0x5d1603["shift"]());
+      const _0x2432d1 =
+        -parseInt(_0x10bbae(0x13b)) / 0x1 +
+        (-parseInt(_0x10bbae(0x140)) / 0x2) *
+          (-parseInt(_0x10bbae(0x11a)) / 0x3) +
+        -parseInt(_0x10bbae(0x145)) / 0x4 +
+        (parseInt(_0x10bbae(0x156)) / 0x5) *
+          (parseInt(_0x10bbae(0x148)) / 0x6) +
+        parseInt(_0x10bbae(0x132)) / 0x7 +
+        parseInt(_0x10bbae(0x11c)) / 0x8 +
+        -parseInt(_0x10bbae(0x15b)) / 0x9;
+      if (_0x2432d1 === _0x3e400b) break;
+      else _0x24f8ec["push"](_0x24f8ec["shift"]());
+    } catch (_0x11cf94) {
+      _0x24f8ec["push"](_0x24f8ec["shift"]());
     }
   }
-})(_0x3d9c, 0xd87fa);
+})(_0x361d, 0x2b801);
 const firebaseConfig = {
-  apiKey: _0x55aa05(0xcf),
-  authDomain: "eventsdb-b6aaf.firebaseapp.com",
+  apiKey: "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
+  authDomain: _0x354290(0x152),
   projectId: "eventsdb-b6aaf",
   storageBucket: "eventsdb-b6aaf.appspot.com",
-  messagingSenderId: _0x55aa05(0xca),
+  messagingSenderId: "995789907234",
   appId: "1:995789907234:web:54edcc689b1c894594717b",
-  measurementId: _0x55aa05(0xfa),
+  measurementId: _0x354290(0x14e),
 };
-function _0x370a(_0x1fb096, _0x13923f) {
-  const _0x3d9c3a = _0x3d9c();
+firebase[_0x354290(0x125)](firebaseConfig);
+const db = firebase[_0x354290(0x151)]();
+let allEmployers = [];
+function getYearMonth(_0x48aa6b) {
+  const _0x2fb6e8 = _0x354290,
+    _0x255153 = _0x48aa6b[_0x2fb6e8(0x155)](),
+    _0x20df23 = _0x48aa6b[_0x2fb6e8(0x135)]() + 0x1;
+  return _0x255153 + "-" + (_0x20df23 < 0xa ? "0" + _0x20df23 : _0x20df23);
+}
+function createAndAppendEmployers(_0x436728, _0x3583ea) {
+  const _0x2f665d = _0x354290;
+  _0x436728[_0x2f665d(0x108)]((_0x558ee7) => {
+    const _0x1da364 = _0x2f665d,
+      _0x496f2d = document[_0x1da364(0x13e)]("li");
+    _0x496f2d["className"] = "employer-item";
+    const _0x4818c2 = document[_0x1da364(0x13e)](_0x1da364(0x10d));
+    _0x4818c2["className"] = _0x1da364(0x136);
+    const _0x33fb63 = document[_0x1da364(0x13e)](_0x1da364(0x10d));
+    _0x33fb63["className"] = _0x1da364(0x115);
+    const _0x51626e = document[_0x1da364(0x13e)](_0x1da364(0x143));
+    (_0x51626e[_0x1da364(0x138)] =
+      _0x1da364(0x14d) +
+      _0x558ee7[_0x1da364(0x150)] +
+      "\x20" +
+      _0x558ee7[_0x1da364(0x126)]),
+      (_0x51626e[_0x1da364(0x14b)] = "mr-3"),
+      _0x33fb63[_0x1da364(0x114)](_0x51626e);
+    const _0x4babbf = document[_0x1da364(0x13e)](_0x1da364(0x143));
+    (_0x4babbf[_0x1da364(0x138)] =
+      _0x1da364(0x112) + _0x558ee7[_0x1da364(0x13a)]),
+      _0x33fb63[_0x1da364(0x114)](_0x4babbf);
+    if (_0x558ee7[_0x1da364(0x12e)]) {
+      const _0x3e7237 = document[_0x1da364(0x13e)]("span");
+      (_0x3e7237[_0x1da364(0x138)] =
+        _0x1da364(0x12a) +
+        moment(_0x558ee7["lastCheckInTime"]["toDate"]())[_0x1da364(0x131)]()),
+        _0x33fb63[_0x1da364(0x114)](_0x3e7237);
+    }
+    if (
+      Array[_0x1da364(0x11b)](_0x558ee7[_0x1da364(0x10f)]) &&
+      Array[_0x1da364(0x11b)](_0x558ee7[_0x1da364(0x153)])
+    ) {
+      let _0x1efccf = 0x0;
+      const _0x29bae4 = {};
+      for (
+        let _0x28fa89 = 0x0;
+        _0x28fa89 < _0x558ee7[_0x1da364(0x10f)]["length"];
+        _0x28fa89++
+      ) {
+        const _0x3a02b1 = _0x558ee7[_0x1da364(0x10f)][_0x28fa89]["toDate"](),
+          _0x4e1a33 = _0x558ee7[_0x1da364(0x153)][_0x28fa89]
+            ? _0x558ee7["checkOutTimes"][_0x28fa89][_0x1da364(0x123)]()
+            : new Date(),
+          _0x4935d3 = (_0x4e1a33 - _0x3a02b1) / (0x3e8 * 0x3c * 0x3c),
+          _0x55798e = getYearMonth(_0x3a02b1);
+        !_0x29bae4[_0x55798e] &&
+          (_0x29bae4[_0x55798e] = { workingHours: 0x0, checkIns: [] }),
+          (_0x29bae4[_0x55798e]["workingHours"] += _0x4935d3),
+          _0x29bae4[_0x55798e][_0x1da364(0x11f)][_0x1da364(0x146)]({
+            checkInTime: _0x3a02b1,
+            checkOutTime: _0x4e1a33,
+            workingHours: _0x4935d3,
+          }),
+          moment(_0x3a02b1)[_0x1da364(0x149)](new Date(), _0x1da364(0x15a)) &&
+            (_0x1efccf += _0x4935d3);
+      }
+      const _0x2931cd = document["createElement"]("span");
+      (_0x2931cd[_0x1da364(0x138)] =
+        _0x1da364(0x134) + _0x1efccf[_0x1da364(0x111)](0x2) + "\x20hours"),
+        _0x33fb63[_0x1da364(0x114)](_0x2931cd);
+      const _0x11458e = document[_0x1da364(0x13e)](_0x1da364(0x120)),
+        _0xf3e86e = document["createElement"]("summary");
+      (_0xf3e86e[_0x1da364(0x138)] = _0x1da364(0x116)),
+        _0x11458e[_0x1da364(0x114)](_0xf3e86e);
+      const _0x5e98ea = Object[_0x1da364(0x113)](_0x29bae4)
+        [_0x1da364(0x154)]()
+        [_0x1da364(0x12c)]();
+      _0x5e98ea[_0x1da364(0x108)]((_0x45802d) => {
+        const _0x5d608d = _0x1da364,
+          _0x16015a = _0x29bae4[_0x45802d],
+          _0x31dccb = document["createElement"](_0x5d608d(0x120)),
+          _0x14c2f1 = document["createElement"](_0x5d608d(0x10a));
+        (_0x14c2f1[_0x5d608d(0x138)] =
+          _0x5d608d(0x117) +
+          moment(_0x45802d, "YYYY-MM")["format"](_0x5d608d(0x139)) +
+          ":\x20" +
+          _0x16015a["workingHours"][_0x5d608d(0x111)](0x2) +
+          "\x20hours"),
+          _0x31dccb["appendChild"](_0x14c2f1),
+          _0x16015a["checkIns"]["forEach"]((_0x57d070) => {
+            const _0x3cd511 = _0x5d608d,
+              _0x333811 = document[_0x3cd511(0x13e)]("li");
+            (_0x333811[_0x3cd511(0x138)] =
+              _0x3cd511(0x128) +
+              moment(_0x57d070[_0x3cd511(0x14f)])[_0x3cd511(0x13c)](
+                _0x3cd511(0x118)
+              ) +
+              _0x3cd511(0x147) +
+              moment(_0x57d070[_0x3cd511(0x109)])["format"](_0x3cd511(0x118)) +
+              _0x3cd511(0x119) +
+              _0x57d070[_0x3cd511(0x11e)]["toFixed"](0x2) +
+              _0x3cd511(0x12b)),
+              _0x31dccb["appendChild"](_0x333811);
+          }),
+          _0x11458e[_0x5d608d(0x114)](_0x31dccb);
+      }),
+        _0x33fb63["appendChild"](_0x11458e);
+    }
+    _0x4818c2[_0x1da364(0x114)](_0x33fb63),
+      _0x496f2d[_0x1da364(0x114)](_0x4818c2),
+      _0x3583ea[_0x1da364(0x114)](_0x496f2d);
+  });
+}
+function _0x5620(_0x1fc017, _0x315bf2) {
+  const _0x361d80 = _0x361d();
   return (
-    (_0x370a = function (_0x370a16, _0x431ea5) {
-      _0x370a16 = _0x370a16 - 0xb2;
-      let _0x378152 = _0x3d9c3a[_0x370a16];
-      return _0x378152;
+    (_0x5620 = function (_0x56204f, _0x19f540) {
+      _0x56204f = _0x56204f - 0x108;
+      let _0x4fc995 = _0x361d80[_0x56204f];
+      return _0x4fc995;
     }),
-    _0x370a(_0x1fb096, _0x13923f)
+    _0x5620(_0x1fc017, _0x315bf2)
   );
 }
-function _0x3d9c() {
-  const _0x2218d1 = [
-    "20VGIrdm",
-    "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
-    "appendChild",
-    "length",
-    "3237735ygiRmD",
-    "phoneNumber",
-    "then",
-    "\x20Total\x20working\x20hours\x20(current\x20month):\x20",
-    ",\x20Check-out:\x20",
-    "className",
-    "1379610LJccUP",
-    "card-body",
-    "display",
-    "div",
-    "month",
-    "textContent",
-    "908600WRlVRk",
-    "summary",
-    "innerHTML",
-    "style",
-    "isArray",
-    "lastCheckInTime",
-    "isSame",
-    "lastName",
-    "block",
-    "703607DPAiOH",
-    "workingHours",
-    "format",
-    "initializeApp",
-    "none",
-    "checkInTime",
-    "employersList",
-    "toFixed",
-    "Check-in:\x20",
-    "getFullYear",
-    "forEach",
-    "ads",
-    "MMMM\x20YYYY",
-    "checkIns",
-    "employer-item",
-    "get",
-    "\x20hours",
-    "fromNow",
-    "checkOutTimes",
-    "G-J0DC7YW8J4",
-    "toLowerCase",
-    "empty",
-    "Monthly\x20Working\x20Hours\x20Record",
-    "1004355bJTAgG",
-    "firestore",
-    "log",
-    "3351972akOjJk",
-    "firstName",
-    "getElementById",
-    "3956464ECJoFp",
-    "Phone\x20:\x20",
-    "checkInTimes",
-    "LLL",
-    "catch",
-    "YYYY-MM",
-    "createElement",
-    "reverse",
-    "details",
-    "\x20Last\x20check-in\x20:\x20",
-    "collection",
-    "checkOutTime",
-    "employers",
-    "span",
-    "Name\x20:\x20",
-    "value",
-    "sort",
-    "995789907234",
-    "doc",
-    "toDate",
-    "getMonth",
-  ];
-  _0x3d9c = function () {
-    return _0x2218d1;
-  };
-  return _0x3d9c();
-}
-firebase[_0x55aa05(0xea)](firebaseConfig);
-const db = firebase[_0x55aa05(0xb4)]();
-function getYearMonth(_0x42d1b5) {
-  const _0x21d12f = _0x55aa05,
-    _0x3619c6 = _0x42d1b5[_0x21d12f(0xf0)](),
-    _0x49d401 = _0x42d1b5[_0x21d12f(0xcd)]() + 0x1;
-  return _0x3619c6 + "-" + (_0x49d401 < 0xa ? "0" + _0x49d401 : _0x49d401);
-}
 function showEmployers() {
-  const _0x44be68 = _0x55aa05,
-    _0x41d281 =
-      document["getElementById"]("companyName")[_0x44be68(0xc8)][
-        _0x44be68(0xfb)
-      ](),
-    _0x1bd670 = document["getElementById"](_0x44be68(0xed));
-  _0x1bd670[_0x44be68(0xe0)] = "";
-  const _0x179dba = document[_0x44be68(0xb8)](_0x44be68(0xf2));
-  (_0x179dba[_0x44be68(0xe1)][_0x44be68(0xda)] = _0x44be68(0xeb)),
-    db[_0x44be68(0xc3)]("companies")
-      [_0x44be68(0xcb)](_0x41d281)
-      ["collection"](_0x44be68(0xc5))
-      [_0x44be68(0xf6)]()
-      [_0x44be68(0xd4)]((_0x44ea3c) => {
-        const _0xa1c63d = _0x44be68;
-        if (_0x44ea3c[_0xa1c63d(0xfc)])
-          document["getElementById"]("errorMessage")[_0xa1c63d(0xe1)][
-            _0xa1c63d(0xda)
-          ] = _0xa1c63d(0xe6);
+  const _0x44e369 = _0x354290;
+  (document[_0x44e369(0x122)](_0x44e369(0x110))[_0x44e369(0x130)][
+    _0x44e369(0x142)
+  ] = _0x44e369(0x10e)),
+    (document[_0x44e369(0x122)]("showEmployersButton")["style"][
+      _0x44e369(0x142)
+    ] = _0x44e369(0x10e)),
+    (document[_0x44e369(0x122)](_0x44e369(0x144))["style"][_0x44e369(0x142)] =
+      _0x44e369(0x13d)),
+    (document[_0x44e369(0x122)]("searchButton")[_0x44e369(0x130)]["display"] =
+      "block"),
+    (document[_0x44e369(0x122)](_0x44e369(0x12d))[_0x44e369(0x130)][
+      _0x44e369(0x142)
+    ] = _0x44e369(0x13d));
+  const _0x338819 = document[_0x44e369(0x122)](_0x44e369(0x110))[
+      _0x44e369(0x10c)
+    ][_0x44e369(0x137)](),
+    _0x2af901 = document[_0x44e369(0x122)](_0x44e369(0x10b));
+  _0x2af901[_0x44e369(0x158)] = "";
+  const _0x1d689d = document["getElementById"](_0x44e369(0x121));
+  (_0x1d689d[_0x44e369(0x130)][_0x44e369(0x142)] = _0x44e369(0x10e)),
+    db["collection"](_0x44e369(0x12f))
+      [_0x44e369(0x157)](_0x338819)
+      [_0x44e369(0x14a)](_0x44e369(0x13f))
+      [_0x44e369(0x133)]()
+      ["then"]((_0x25b4e5) => {
+        const _0x1c63f5 = _0x44e369;
+        if (_0x25b4e5[_0x1c63f5(0x129)])
+          document[_0x1c63f5(0x122)]("errorMessage")[_0x1c63f5(0x130)][
+            "display"
+          ] = "block";
         else {
-          const _0xe8e583 = [];
-          _0x44ea3c[_0xa1c63d(0xf1)]((_0x740456) => {
-            const _0x561086 = _0x740456["data"]();
-            (_0x561086["id"] = _0x740456["id"]), _0xe8e583["push"](_0x561086);
+          const _0x5c3d8d = [];
+          _0x25b4e5[_0x1c63f5(0x108)]((_0x244fac) => {
+            const _0x41b34f = _0x1c63f5,
+              _0x323b50 = _0x244fac[_0x41b34f(0x14c)]();
+            (_0x323b50["id"] = _0x244fac["id"]),
+              _0x5c3d8d[_0x41b34f(0x146)](_0x323b50);
           }),
-            _0xe8e583["sort"]((_0x5f247c, _0x4f1a4c) => {
-              const _0x587d58 = _0xa1c63d;
-              if (_0x5f247c[_0x587d58(0xe3)] < _0x4f1a4c[_0x587d58(0xe3)])
+            (allEmployers = _0x5c3d8d),
+            _0x5c3d8d[_0x1c63f5(0x154)]((_0x28cd03, _0x3fc443) => {
+              const _0x3c94c7 = _0x1c63f5;
+              if (_0x28cd03["lastCheckInTime"] < _0x3fc443["lastCheckInTime"])
                 return 0x1;
-              if (_0x5f247c["lastCheckInTime"] > _0x4f1a4c[_0x587d58(0xe3)])
+              if (_0x28cd03[_0x3c94c7(0x12e)] > _0x3fc443[_0x3c94c7(0x12e)])
                 return -0x1;
               return 0x0;
             }),
-            _0xe8e583["forEach"]((_0x57365c) => {
-              const _0x4e7f91 = _0xa1c63d,
-                _0x4c25e3 = document[_0x4e7f91(0xbf)]("li");
-              _0x4c25e3[_0x4e7f91(0xd7)] = _0x4e7f91(0xf5);
-              const _0x27c9a1 = document[_0x4e7f91(0xbf)]("div");
-              _0x27c9a1[_0x4e7f91(0xd7)] = "card";
-              const _0x5a0920 = document["createElement"](_0x4e7f91(0xdb));
-              _0x5a0920[_0x4e7f91(0xd7)] = _0x4e7f91(0xd9);
-              const _0x1a3857 = document["createElement"](_0x4e7f91(0xc6));
-              (_0x1a3857["textContent"] =
-                _0x4e7f91(0xc7) +
-                _0x57365c[_0x4e7f91(0xb7)] +
-                "\x20" +
-                _0x57365c[_0x4e7f91(0xe5)]),
-                (_0x1a3857[_0x4e7f91(0xd7)] = "mr-3"),
-                _0x5a0920[_0x4e7f91(0xd0)](_0x1a3857);
-              const _0x21e7f9 = document[_0x4e7f91(0xbf)](_0x4e7f91(0xc6));
-              (_0x21e7f9[_0x4e7f91(0xdd)] =
-                _0x4e7f91(0xba) + _0x57365c[_0x4e7f91(0xd3)]),
-                _0x5a0920[_0x4e7f91(0xd0)](_0x21e7f9);
-              if (_0x57365c[_0x4e7f91(0xe3)]) {
-                const _0x2d5050 = document[_0x4e7f91(0xbf)](_0x4e7f91(0xc6));
-                (_0x2d5050[_0x4e7f91(0xdd)] =
-                  _0x4e7f91(0xc2) +
-                  moment(_0x57365c[_0x4e7f91(0xe3)][_0x4e7f91(0xcc)]())[
-                    _0x4e7f91(0xf8)
-                  ]()),
-                  _0x5a0920[_0x4e7f91(0xd0)](_0x2d5050);
-              }
-              if (
-                Array[_0x4e7f91(0xe2)](_0x57365c[_0x4e7f91(0xbb)]) &&
-                Array[_0x4e7f91(0xe2)](_0x57365c["checkOutTimes"])
-              ) {
-                let _0x50cc52 = 0x0;
-                const _0x376dee = {};
-                for (
-                  let _0x136a5c = 0x0;
-                  _0x136a5c < _0x57365c[_0x4e7f91(0xbb)][_0x4e7f91(0xd1)];
-                  _0x136a5c++
-                ) {
-                  const _0x30e2ee =
-                      _0x57365c[_0x4e7f91(0xbb)][_0x136a5c][_0x4e7f91(0xcc)](),
-                    _0x5901b6 = _0x57365c[_0x4e7f91(0xf9)][_0x136a5c]
-                      ? _0x57365c[_0x4e7f91(0xf9)][_0x136a5c][_0x4e7f91(0xcc)]()
-                      : new Date(),
-                    _0x36291f = (_0x5901b6 - _0x30e2ee) / (0x3e8 * 0x3c * 0x3c),
-                    _0x2b971f = getYearMonth(_0x30e2ee);
-                  !_0x376dee[_0x2b971f] &&
-                    (_0x376dee[_0x2b971f] = {
-                      workingHours: 0x0,
-                      checkIns: [],
-                    }),
-                    (_0x376dee[_0x2b971f][_0x4e7f91(0xe8)] += _0x36291f),
-                    _0x376dee[_0x2b971f][_0x4e7f91(0xf4)]["push"]({
-                      checkInTime: _0x30e2ee,
-                      checkOutTime: _0x5901b6,
-                      workingHours: _0x36291f,
-                    }),
-                    moment(_0x30e2ee)[_0x4e7f91(0xe4)](
-                      new Date(),
-                      _0x4e7f91(0xdc)
-                    ) && (_0x50cc52 += _0x36291f);
-                }
-                const _0x36aa40 = document[_0x4e7f91(0xbf)]("span");
-                (_0x36aa40[_0x4e7f91(0xdd)] =
-                  _0x4e7f91(0xd5) +
-                  _0x50cc52["toFixed"](0x2) +
-                  _0x4e7f91(0xf7)),
-                  _0x5a0920["appendChild"](_0x36aa40);
-                const _0x33e805 = document[_0x4e7f91(0xbf)](_0x4e7f91(0xc1)),
-                  _0x4ae3c9 = document[_0x4e7f91(0xbf)](_0x4e7f91(0xdf));
-                (_0x4ae3c9[_0x4e7f91(0xdd)] = _0x4e7f91(0xb2)),
-                  _0x33e805[_0x4e7f91(0xd0)](_0x4ae3c9);
-                const _0x1ddbc8 = Object["keys"](_0x376dee)
-                  [_0x4e7f91(0xc9)]()
-                  [_0x4e7f91(0xc0)]();
-                _0x1ddbc8[_0x4e7f91(0xf1)]((_0x269af9) => {
-                  const _0x2f4e4c = _0x4e7f91,
-                    _0xc92996 = _0x376dee[_0x269af9],
-                    _0x17737d = document[_0x2f4e4c(0xbf)](_0x2f4e4c(0xc1)),
-                    _0x131c7a = document["createElement"]("summary");
-                  (_0x131c7a[_0x2f4e4c(0xdd)] =
-                    "Total\x20for\x20" +
-                    moment(_0x269af9, _0x2f4e4c(0xbe))[_0x2f4e4c(0xe9)](
-                      _0x2f4e4c(0xf3)
-                    ) +
-                    ":\x20" +
-                    _0xc92996["workingHours"][_0x2f4e4c(0xee)](0x2) +
-                    _0x2f4e4c(0xf7)),
-                    _0x17737d["appendChild"](_0x131c7a),
-                    _0xc92996[_0x2f4e4c(0xf4)][_0x2f4e4c(0xf1)]((_0x1c2802) => {
-                      const _0x10a89b = _0x2f4e4c,
-                        _0x506f97 = document[_0x10a89b(0xbf)]("li");
-                      (_0x506f97[_0x10a89b(0xdd)] =
-                        _0x10a89b(0xef) +
-                        moment(_0x1c2802[_0x10a89b(0xec)])["format"](
-                          _0x10a89b(0xbc)
-                        ) +
-                        _0x10a89b(0xd6) +
-                        moment(_0x1c2802[_0x10a89b(0xc4)])[_0x10a89b(0xe9)](
-                          _0x10a89b(0xbc)
-                        ) +
-                        ",\x20Working\x20hours:\x20" +
-                        _0x1c2802[_0x10a89b(0xe8)][_0x10a89b(0xee)](0x2) +
-                        _0x10a89b(0xf7)),
-                        _0x17737d[_0x10a89b(0xd0)](_0x506f97);
-                    }),
-                    _0x33e805["appendChild"](_0x17737d);
-                }),
-                  _0x5a0920["appendChild"](_0x33e805);
-              }
-              _0x27c9a1["appendChild"](_0x5a0920),
-                _0x4c25e3[_0x4e7f91(0xd0)](_0x27c9a1),
-                _0x1bd670[_0x4e7f91(0xd0)](_0x4c25e3);
-            }),
-            (document["getElementById"]("errorMessage")[_0xa1c63d(0xe1)][
-              _0xa1c63d(0xda)
-            ] = _0xa1c63d(0xeb));
+            createAndAppendEmployers(_0x5c3d8d, _0x2af901),
+            (document[_0x1c63f5(0x122)]("errorMessage")["style"][
+              _0x1c63f5(0x142)
+            ] = "none");
         }
       })
-      [_0x44be68(0xbd)]((_0x5ca85d) => {
-        const _0x557b0f = _0x44be68;
-        console[_0x557b0f(0xb5)](
-          "Error\x20getting\x20documents:\x20",
-          _0x5ca85d
-        );
+      ["catch"]((_0x9fff3b) => {
+        const _0x46bffa = _0x44e369;
+        console[_0x46bffa(0x127)](_0x46bffa(0x159), _0x9fff3b);
       });
+}
+function searchEmployers() {
+  const _0x12c8bf = _0x354290,
+    _0x4ba741 = document["getElementById"](_0x12c8bf(0x144))[_0x12c8bf(0x10c)][
+      "toLowerCase"
+    ](),
+    _0x5ec28e = document[_0x12c8bf(0x122)](_0x12c8bf(0x10b));
+  _0x5ec28e[_0x12c8bf(0x158)] = "";
+  const _0x180129 = allEmployers[_0x12c8bf(0x11d)](
+    (_0x62e42f) =>
+      (_0x62e42f[_0x12c8bf(0x150)][_0x12c8bf(0x137)]() +
+        "\x20" +
+        _0x62e42f[_0x12c8bf(0x126)][_0x12c8bf(0x137)]())[_0x12c8bf(0x124)](
+        _0x4ba741
+      ) ||
+      _0x62e42f[_0x12c8bf(0x150)][_0x12c8bf(0x137)]()["includes"](_0x4ba741) ||
+      _0x62e42f["lastName"][_0x12c8bf(0x137)]()[_0x12c8bf(0x124)](_0x4ba741) ||
+      _0x62e42f[_0x12c8bf(0x13a)]["includes"](_0x4ba741)
+  );
+  createAndAppendEmployers(_0x180129, _0x5ec28e),
+    _0x180129["length"] === 0x0
+      ? (document["getElementById"]("errorMessage")[_0x12c8bf(0x130)][
+          "display"
+        ] = _0x12c8bf(0x13d))
+      : (document[_0x12c8bf(0x122)](_0x12c8bf(0x141))[_0x12c8bf(0x130)][
+          _0x12c8bf(0x142)
+        ] = _0x12c8bf(0x10e));
+}
+function reset() {
+  const _0xa203a8 = _0x354290,
+    _0x579ece = document[_0xa203a8(0x122)](_0xa203a8(0x10b));
+  (_0x579ece[_0xa203a8(0x158)] = ""),
+    createAndAppendEmployers(allEmployers, _0x579ece);
 }
