@@ -116,7 +116,8 @@
     <div class="container">
         <h4>Is xaadiri</h4>
         <div class="input-field">
-            <input type="number" id="phoneNumber" placeholder="Lambarkaaga" class="form-control">
+            <input type="number" id="phoneNumber" placeholder="Lambarkaaga" class="form-control"
+                oninput="this.value = this.value.replace(/[^0-9]/g, '')">
         </div>
         <h2 style="display: block;position: relative; z-index: 2; text-align: center;width: 100%;" id="loading">Sug wax
             yar...</h2>
