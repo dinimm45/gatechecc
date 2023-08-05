@@ -5,7 +5,7 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8255021700561730"
         crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Event Ticket Management</title>
+    <title>Management Systems</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -14,6 +14,30 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+
+        .header {
+            width: 100%;
+            height: 400px;
+            position: relative;
+        }
+
+        .header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #ffffff;
+            font-size: 48px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
         }
 
         h1 {
@@ -125,7 +149,10 @@
             </ul>
         </div>
     </nav>
-    <h1>Event Ticket Management</h1>
+    <div class="header">
+        <img src="images/wrkn.jpg" alt="">
+        <div class="header-text">Management Systems</div>
+    </div>
     <div class="card-container">
         <div class="card" id="displayhr">
             <img src="images/chckin.png" alt="Create Tickets">
