@@ -9,131 +9,8 @@
     <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <style>
-        body {
-            background-color: #f4f3ef;
-            font-family: 'Montserrat', sans-serif;
-        }
+    <link rel="stylesheet" href="scanemp.css">
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h4 {
-            color: #333;
-            font-size: 2em;
-            font-weight: 700;
-            margin-bottom: 1em;
-        }
-
-        .input-field {
-            margin-bottom: 2em;
-        }
-
-        .input-field input {
-            width: 100%;
-            padding: 10px;
-            font-size: 1em;
-            border-radius: 4px;
-            border: 1px solid #dcdcdc;
-            text-align: center;
-        }
-
-        .scan-code {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 50vh;
-            border: 1px solid #dcdcdc;
-            border-radius: 4px;
-            background: white;
-            margin-bottom: 2em;
-        }
-
-        #refresh {
-            padding: 10px;
-            font-size: 1em;
-            color: #fff;
-            background-color: #4d0808;
-            border: none;
-            border-radius: 4px;
-            display: none;
-            margin-top: 1em;
-            width: 100%;
-        }
-
-        #refresh:active {
-            transform: scale(0.98);
-        }
-
-        #qr-result {
-            color: #333;
-            margin-top: 2em;
-        }
-
-        .lotties {
-            display: none;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 200px;
-            margin-bottom: 2em;
-        }
-
-        #error {
-            color: white;
-            background-color: #c82333;
-            border-color: #bd2130;
-            display: none;
-            padding: .75rem 1.25rem;
-            margin-bottom: 1rem;
-            border: 1px solid transparent;
-            border-radius: .25rem;
-        }
-
-        a {
-            color: #fff;
-            background-color: #4d0808;
-            border-color: #4d0808;
-            display: inline-block;
-            font-weight: 400;
-            text-align: center;
-            vertical-align: middle;
-            user-select: none;
-            padding: .375rem .75rem;
-            font-size: 1rem;
-            line-height: 1.5;
-            border-radius: .25rem;
-            margin-top: 1em;
-        }
-
-        .loader {
-            border: 5px solid #f3f3f3;
-            /* Light grey */
-            border-top: 5px solid #3498db;
-            /* Blue */
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            animation: spin 2s linear infinite;
-            position: absolute;
-            left: 45%;
-            top: 50%;
-        }
-
-        @keyframes spin {
-            0% {
-                transform: rotate(0deg);
-            }
-
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -141,8 +18,14 @@
     <div class="container">
         <h4>Is xaadiri</h4>
         <div class="input-field">
-            <input type="number" id="phoneNumber" placeholder="Lambarkaaga" class="form-control"
+            <input type="number" id="phoneNumber" placeholder="Lambarkaaga ku qor kadib skan saar" class="form-control"
                 oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+        </div>
+        <!-- Add the Notes Field -->
+        <div class="input-field">
+            <textarea id="notes"
+                placeholder="Hadi aad maamule tahay ku qor inta shaqaale aad wadado marka aad galaayso iyo markaad ka baxaayso shaqada..."
+                class="form-control notes-textarea"></textarea>
         </div>
         <h2 style="display: block;position: relative; z-index: 2; text-align: center;width: 100%;" id="loading">Sug wax
             yar...</h2>
@@ -155,18 +38,12 @@
             <div id="qr-result" hidden="">
                 <b>Data:</b> <span id="outputData"></span>
             </div>
-            <div class="lotties">
-                <lottie-player id="valid" src="https://assets9.lottiefiles.com/packages/lf20_afs4kbqm.json"
-                    background="transparent" speed="1" autoplay></lottie-player>
-                <lottie-player id="nonevalid" src="https://assets8.lottiefiles.com/packages/lf20_g0rackmk.json"
-                    background="transparent" speed="1" autoplay></lottie-player>
-            </div>
             <p id="error">Kuma jirtid systemka. Lambarka sax ama is diwaangali</p>
         </main>
         <button id="refresh">Scan Again</button>
         <a href="workersid.html">IS DIWAANGALI</a>
     </div>
-    <script src="obfustaced/scanemp.js"> </script>
+    <script src="js/scanempl.js"> </script>
 </body>
 
 </html>
