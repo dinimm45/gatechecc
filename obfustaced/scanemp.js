@@ -1,241 +1,254 @@
-function _0x23f7(_0x1b665f, _0x598850) {
-  const _0x1b6a58 = _0x1b6a();
-  return (
-    (_0x23f7 = function (_0x23f7f4, _0x27c323) {
-      _0x23f7f4 = _0x23f7f4 - 0x1d3;
-      let _0x5ecc4a = _0x1b6a58[_0x23f7f4];
-      return _0x5ecc4a;
-    }),
-    _0x23f7(_0x1b665f, _0x598850)
-  );
-}
-function _0x1b6a() {
-  const _0x512351 = [
-    "496896HJvVTl",
-    "BrowserMultiFormatReader",
-    "valid",
-    "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js",
-    "1:995789907234:web:54edcc689b1c894594717b",
-    "phoneNumber",
-    "employers",
-    "style",
-    "ref",
-    "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
-    "companies",
-    "nonevalid",
-    "NotFoundException",
-    "value",
-    "mediaDevices",
-    "click",
-    "reload",
-    "507147PuhyfD",
-    "https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js",
-    "42OQPCsy",
-    "lastEvent",
-    "loader",
-    "1004877aDfNXy",
-    "filter",
-    "145390zWmhfv",
-    "getElementById",
-    "Check-out\x20timestamp\x20has\x20been\x20updated",
-    "checkIn",
-    "split",
-    "Check-in\x20timestamp\x20has\x20been\x20updated",
-    "outputData",
-    "eventsdb-b6aaf",
-    "error",
-    "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js",
-    "display",
-    "413920wpLdEl",
-    "data",
-    "4FTddeS",
-    "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js",
-    "50aQnlYX",
-    "No\x20matching\x20employers\x20found.",
-    "176464PphFEc",
-    "eventsdb-b6aaf.appspot.com",
-    "continuous",
-    "checkInTimes",
-    "reset",
-    "block",
-    "videoinput",
-    "Shaqada\x20waad\x20bilaawday",
-    "checkOut",
-    "video",
-    "Shaqada\x20waad\x20ka\x20baxday",
-    "kind",
-    "log",
-    "refresh",
-    "eventsdb-b6aaf.firebaseapp.com",
-    "decodeFromVideoDevice",
-    "none",
-    "1697200oMyXzx",
-    "deviceId",
-  ];
-  _0x1b6a = function () {
-    return _0x512351;
-  };
-  return _0x1b6a();
-}
-(function (_0x3e9130, _0x1c904e) {
-  const _0x26775f = _0x23f7,
-    _0x3a890a = _0x3e9130();
+(function (_0x891a56, _0x51067f) {
+  const _0xf8a318 = _0x1315,
+    _0x385b37 = _0x891a56();
   while (!![]) {
     try {
-      const _0x5b8e6c =
-        parseInt(_0x26775f(0x1dc)) / 0x1 +
-        (-parseInt(_0x26775f(0x1e9)) / 0x2) *
-          (-parseInt(_0x26775f(0x1d5)) / 0x3) +
-        -parseInt(_0x26775f(0x1e7)) / 0x4 +
-        parseInt(_0x26775f(0x1fe)) / 0x5 +
-        -parseInt(_0x26775f(0x200)) / 0x6 +
-        (-parseInt(_0x26775f(0x1d7)) / 0x7) *
-          (-parseInt(_0x26775f(0x1ed)) / 0x8) +
-        (-parseInt(_0x26775f(0x1da)) / 0x9) *
-          (parseInt(_0x26775f(0x1eb)) / 0xa);
-      if (_0x5b8e6c === _0x1c904e) break;
-      else _0x3a890a["push"](_0x3a890a["shift"]());
-    } catch (_0x430cd0) {
-      _0x3a890a["push"](_0x3a890a["shift"]());
+      const _0x4bc1cc =
+        (parseInt(_0xf8a318(0x16e)) / 0x1) *
+          (-parseInt(_0xf8a318(0x175)) / 0x2) +
+        (parseInt(_0xf8a318(0x180)) / 0x3) *
+          (parseInt(_0xf8a318(0x173)) / 0x4) +
+        (parseInt(_0xf8a318(0x186)) / 0x5) *
+          (parseInt(_0xf8a318(0x1a3)) / 0x6) +
+        (parseInt(_0xf8a318(0x18e)) / 0x7) *
+          (parseInt(_0xf8a318(0x19c)) / 0x8) +
+        -parseInt(_0xf8a318(0x191)) / 0x9 +
+        (-parseInt(_0xf8a318(0x183)) / 0xa) *
+          (parseInt(_0xf8a318(0x19b)) / 0xb) +
+        (parseInt(_0xf8a318(0x194)) / 0xc) * (parseInt(_0xf8a318(0x1a6)) / 0xd);
+      if (_0x4bc1cc === _0x51067f) break;
+      else _0x385b37["push"](_0x385b37["shift"]());
+    } catch (_0x29f17c) {
+      _0x385b37["push"](_0x385b37["shift"]());
     }
   }
-})(_0x1b6a, 0x3371b),
+})(_0xce9e, 0x920d0),
   (async () => {
-    const _0x2af00d = _0x23f7,
-      { initializeApp: _0x421af7 } = await import(_0x2af00d(0x1e5)),
-      { getAnalytics: _0x27d7eb } = await import(_0x2af00d(0x203)),
-      { getAuth: _0x4055ed } = await import(_0x2af00d(0x1ea)),
+    const _0x1beb84 = _0x1315,
+      { initializeApp: _0x223b89 } = await import(_0x1beb84(0x199)),
+      { getAnalytics: _0x65f32e } = await import(_0x1beb84(0x18d)),
+      { getAuth: _0xba8915 } = await import(_0x1beb84(0x17f)),
       {
-        getFirestore: _0x29820d,
-        doc: _0x2ece43,
-        getDocs: _0xb753f7,
-        collection: _0x3180bb,
-        deleteDoc: _0x194c5e,
-        query: _0x7a2615,
-        where: _0x373614,
-        updateDoc: _0x4760e1,
-        serverTimestamp: _0x180cfa,
-        arrayUnion: _0x3f1e3d,
-      } = await import(_0x2af00d(0x1d6)),
-      _0x138bb8 = {
-        apiKey: _0x2af00d(0x209),
-        authDomain: _0x2af00d(0x1fb),
-        projectId: _0x2af00d(0x1e3),
-        storageBucket: _0x2af00d(0x1ee),
-        messagingSenderId: "995789907234",
-        appId: _0x2af00d(0x204),
-        measurementId: "G-J0DC7YW8J4",
+        getFirestore: _0x5193b8,
+        doc: _0x2a9a93,
+        getDocs: _0x2a4999,
+        collection: _0x71ca03,
+        deleteDoc: _0x3600fc,
+        query: _0x3916dc,
+        where: _0x30ea5c,
+        updateDoc: _0x275003,
+        serverTimestamp: _0x5024f0,
+        arrayUnion: _0x3b39f6,
+      } = await import(
+        "https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js"
+      ),
+      _0xf495bc = {
+        apiKey: _0x1beb84(0x1a8),
+        authDomain: _0x1beb84(0x16d),
+        projectId: _0x1beb84(0x17c),
+        storageBucket: "eventsdb-b6aaf.appspot.com",
+        messagingSenderId: _0x1beb84(0x18a),
+        appId: _0x1beb84(0x171),
+        measurementId: _0x1beb84(0x179),
       },
-      _0x189ab5 = _0x421af7(_0x138bb8),
-      _0x76bf9d = _0x27d7eb(_0x189ab5),
-      _0x136c59 = _0x29820d(),
-      _0x36558d = document[_0x2af00d(0x1dd)](_0x2af00d(0x1f6)),
-      _0x4bad7a = document[_0x2af00d(0x1dd)](_0x2af00d(0x1e2)),
-      _0x442960 = document[_0x2af00d(0x1dd)](_0x2af00d(0x202)),
-      _0x2ac3d3 = document[_0x2af00d(0x1dd)](_0x2af00d(0x20b)),
-      _0x473adc = document[_0x2af00d(0x1dd)](_0x2af00d(0x1fa)),
-      _0x44880b = document["getElementById"](_0x2af00d(0x1e4)),
-      _0x5a8299 = document[_0x2af00d(0x1dd)]("companyName"),
-      _0x131637 = document[_0x2af00d(0x1dd)](_0x2af00d(0x205)),
-      _0x5b559a = document[_0x2af00d(0x1dd)]("loading"),
-      _0x5af467 = document[_0x2af00d(0x1dd)](_0x2af00d(0x1d9)),
-      _0x27d185 = new ZXing[_0x2af00d(0x201)](),
-      _0x3f1da3 = async () => {
-        const _0x4bf07c = _0x2af00d,
-          _0x140460 = await navigator[_0x4bf07c(0x20e)]["enumerateDevices"](),
-          _0x11bbc4 = _0x140460[_0x4bf07c(0x1db)](
-            (_0x337713) => _0x337713[_0x4bf07c(0x1f8)] === _0x4bf07c(0x1f3)
+      _0x39c704 = _0x223b89(_0xf495bc),
+      _0x1aa5b3 = _0x65f32e(_0x39c704),
+      _0x532d93 = _0x5193b8(),
+      _0x47ae08 = document[_0x1beb84(0x197)](_0x1beb84(0x172)),
+      _0x185781 = document[_0x1beb84(0x197)](_0x1beb84(0x1ac)),
+      _0x418d94 = document[_0x1beb84(0x197)]("valid"),
+      _0x2510cb = document[_0x1beb84(0x197)](_0x1beb84(0x170)),
+      _0x1460d1 = document[_0x1beb84(0x197)](_0x1beb84(0x17e)),
+      _0x4478f4 = document[_0x1beb84(0x197)](_0x1beb84(0x1ae)),
+      _0x1b96d1 = document["getElementById"]("companyName"),
+      _0x25a674 = document["getElementById"](_0x1beb84(0x181)),
+      _0x3bef11 = document[_0x1beb84(0x197)]("notes"),
+      _0x535b70 = document[_0x1beb84(0x197)](_0x1beb84(0x187)),
+      _0x13b805 = document[_0x1beb84(0x197)](_0x1beb84(0x178)),
+      _0x1a650e = new ZXing[_0x1beb84(0x1a5)](),
+      _0x43cf4e = async () => {
+        const _0x298d3f = _0x1beb84,
+          _0x5850a4 = await navigator[_0x298d3f(0x190)][_0x298d3f(0x19f)](),
+          _0x1c8e9f = _0x5850a4[_0x298d3f(0x177)](
+            (_0xe21d36) => _0xe21d36[_0x298d3f(0x1aa)] === _0x298d3f(0x195)
           ),
-          _0x466509 = _0x11bbc4[0x0];
+          _0xdd89c5 = _0x1c8e9f[0x0];
         return {
-          deviceId: _0x466509[_0x4bf07c(0x1ff)],
+          deviceId: _0xdd89c5[_0x298d3f(0x192)],
           width: { ideal: 0x780 },
           height: { ideal: 0x438 },
-          facingMode: "environment",
-          focusMode: _0x4bf07c(0x1ef),
+          facingMode: _0x298d3f(0x1ad),
+          focusMode: _0x298d3f(0x18c),
         };
       };
-    _0x3f1da3()["then"]((_0x1162a5) => {
-      const _0x5e5a22 = _0x2af00d;
-      _0x27d185[_0x5e5a22(0x1fc)](
+    _0x43cf4e()["then"]((_0x482fe8) => {
+      _0x1a650e["decodeFromVideoDevice"](
         undefined,
-        _0x36558d,
-        async (_0x5cf50c, _0x3501c5) => {
-          const _0x31e465 = _0x5e5a22;
-          _0x5b559a[_0x31e465(0x207)][_0x31e465(0x1e6)] = _0x31e465(0x1fd);
-          if (_0x5cf50c) {
-            _0x27d185[_0x31e465(0x1f1)](),
-              (_0x473adc[_0x31e465(0x207)][_0x31e465(0x1e6)] = "block"),
-              (_0x5af467["style"][_0x31e465(0x1e6)] = _0x31e465(0x1f2));
-            const _0x40fa45 = _0x5cf50c["text"],
-              [_0x3ffd79, _0x8d630d] = _0x40fa45[_0x31e465(0x1e0)]("-"),
-              _0x1beae0 = _0x131637[_0x31e465(0x20d)],
-              _0x5bbb53 = _0x7a2615(
-                _0x3180bb(
-                  _0x136c59,
-                  _0x31e465(0x20a),
-                  _0x3ffd79,
-                  _0x31e465(0x206)
-                ),
-                _0x373614(_0x31e465(0x205), "==", _0x1beae0)
+        _0x47ae08,
+        async (_0x486787, _0x4d4c54) => {
+          const _0x28a9b4 = _0x1315;
+          _0x535b70["style"][_0x28a9b4(0x18b)] = "none";
+          if (_0x486787) {
+            _0x1a650e[_0x28a9b4(0x17b)](),
+              (_0x1460d1[_0x28a9b4(0x184)][_0x28a9b4(0x18b)] =
+                _0x28a9b4(0x176)),
+              (_0x13b805["style"][_0x28a9b4(0x18b)] = _0x28a9b4(0x176));
+            const _0x453495 = _0x486787[_0x28a9b4(0x188)],
+              [_0x491906, _0x3e4f8d] = _0x453495[_0x28a9b4(0x174)]("-"),
+              _0x2d4dcf = _0x25a674[_0x28a9b4(0x17a)],
+              _0x629f94 = _0x3bef11["value"],
+              _0x72b376 = _0x3916dc(
+                _0x71ca03(_0x532d93, "companies", _0x491906, _0x28a9b4(0x198)),
+                _0x30ea5c(_0x28a9b4(0x181), "==", _0x2d4dcf)
               ),
-              _0x32a147 = await _0xb753f7(_0x5bbb53);
-            if (_0x32a147["empty"]) {
-              console["log"](_0x31e465(0x1ec)),
-                (_0x44880b[_0x31e465(0x207)][_0x31e465(0x1e6)] =
-                  _0x31e465(0x1f2));
+              _0x12c3fb = await _0x2a4999(_0x72b376);
+            if (_0x12c3fb[_0x28a9b4(0x19a)]) {
+              console["log"]("No\x20matching\x20employers\x20found."),
+                (_0x4478f4["style"][_0x28a9b4(0x18b)] = _0x28a9b4(0x176));
               return;
             }
-            _0x32a147["forEach"]((_0x3a737e) => {
-              const _0x5bd726 = _0x31e465,
-                _0x4b3efe = _0x3a737e[_0x5bd726(0x1e8)](),
-                _0x111b14 = new Date(),
-                _0x4f12a4 = { time: _0x111b14, location: _0x8d630d };
+            _0x12c3fb[_0x28a9b4(0x182)]((_0x2f98f1) => {
+              const _0x37755f = _0x28a9b4,
+                _0x20dc15 = _0x2f98f1[_0x37755f(0x1a0)](),
+                _0x2caffe = new Date(),
+                _0x549128 = {
+                  time: _0x2caffe,
+                  location: _0x3e4f8d,
+                  note: _0x629f94,
+                };
               if (
-                _0x4b3efe[_0x5bd726(0x1d8)] === _0x5bd726(0x1f5) ||
-                !_0x4b3efe["lastEvent"]
+                _0x20dc15[_0x37755f(0x1ab)] === _0x37755f(0x189) ||
+                !_0x20dc15[_0x37755f(0x1ab)]
               ) {
-                console[_0x5bd726(0x1f9)](_0x5bd726(0x1e1)),
+                console["log"](
+                  "Check-in\x20timestamp\x20has\x20been\x20updated"
+                ),
                   setTimeout(() => {
-                    const _0x2090ae = _0x5bd726;
-                    alert(_0x2090ae(0x1f4));
+                    const _0x483ca9 = _0x37755f;
+                    alert(_0x483ca9(0x1a1));
                   }, 0x9c4),
-                  (_0x44880b[_0x5bd726(0x207)][_0x5bd726(0x1e6)] =
-                    _0x5bd726(0x1fd));
-                const _0x4f632c = _0x4b3efe[_0x5bd726(0x1f0)] || [];
-                _0x4760e1(_0x3a737e[_0x5bd726(0x208)], {
-                  lastCheckInTime: _0x180cfa(),
-                  checkInTimes: [..._0x4f632c, _0x4f12a4],
-                  lastEvent: _0x5bd726(0x1df),
+                  (_0x4478f4["style"][_0x37755f(0x18b)] = _0x37755f(0x19d));
+                const _0x14f1ec = _0x20dc15[_0x37755f(0x185)] || [];
+                _0x275003(_0x2f98f1["ref"], {
+                  lastCheckInTime: _0x5024f0(),
+                  checkInTimes: [..._0x14f1ec, _0x549128],
+                  lastEvent: _0x37755f(0x1a2),
+                  note: _0x629f94,
                 });
               } else {
-                if (_0x4b3efe[_0x5bd726(0x1d8)] === _0x5bd726(0x1df)) {
-                  console[_0x5bd726(0x1f9)](_0x5bd726(0x1de)),
+                if (_0x20dc15[_0x37755f(0x1ab)] === "checkIn") {
+                  console[_0x37755f(0x1a4)](_0x37755f(0x193)),
                     setTimeout(() => {
-                      const _0x4df46c = _0x5bd726;
-                      alert(_0x4df46c(0x1f7));
+                      const _0x8b7ab7 = _0x37755f;
+                      alert(_0x8b7ab7(0x1a7));
                     }, 0x9c4),
-                    (_0x44880b[_0x5bd726(0x207)][_0x5bd726(0x1e6)] =
-                      _0x5bd726(0x1fd));
-                  const _0x3e16c8 = _0x4b3efe["checkOutTimes"] || [];
-                  _0x4760e1(_0x3a737e["ref"], {
-                    lastCheckOutTime: _0x180cfa(),
-                    checkOutTimes: [..._0x3e16c8, _0x4f12a4],
-                    lastEvent: "checkOut",
+                    (_0x4478f4[_0x37755f(0x184)][_0x37755f(0x18b)] =
+                      _0x37755f(0x19d));
+                  const _0x33c3a5 = _0x20dc15[_0x37755f(0x1a9)] || [];
+                  _0x275003(_0x2f98f1[_0x37755f(0x17d)], {
+                    lastCheckOutTime: _0x5024f0(),
+                    checkOutTimes: [..._0x33c3a5, _0x549128],
+                    lastEvent: _0x37755f(0x189),
+                    note: _0x629f94,
                   });
                 }
               }
             });
           }
-          _0x3501c5 &&
-            !(_0x3501c5 instanceof ZXing[_0x31e465(0x20c)]) &&
-            console["error"](_0x3501c5);
+          _0x4d4c54 &&
+            !(_0x4d4c54 instanceof ZXing[_0x28a9b4(0x18f)]) &&
+            console["error"](_0x4d4c54);
         },
-        _0x1162a5
+        _0x482fe8
       );
     }),
-      _0x473adc["addEventListener"](_0x2af00d(0x1d3), function () {
-        const _0x3d548d = _0x2af00d;
-        location[_0x3d548d(0x1d4)]();
+      _0x1460d1[_0x1beb84(0x19e)](_0x1beb84(0x16f), function () {
+        const _0x3788b7 = _0x1beb84;
+        location[_0x3788b7(0x196)]();
       });
   })();
+function _0x1315(_0x99b109, _0x391cdf) {
+  const _0xce9ec5 = _0xce9e();
+  return (
+    (_0x1315 = function (_0x131584, _0x1cafd0) {
+      _0x131584 = _0x131584 - 0x16d;
+      let _0x2f8e62 = _0xce9ec5[_0x131584];
+      return _0x2f8e62;
+    }),
+    _0x1315(_0x99b109, _0x391cdf)
+  );
+}
+function _0xce9e() {
+  const _0x14b8be = [
+    "245oMVUwA",
+    "NotFoundException",
+    "mediaDevices",
+    "8975106BBUhBy",
+    "deviceId",
+    "Check-out\x20timestamp\x20has\x20been\x20updated",
+    "15763596ymczRz",
+    "videoinput",
+    "reload",
+    "getElementById",
+    "employers",
+    "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js",
+    "empty",
+    "528495rHPnql",
+    "74864dwhlmT",
+    "none",
+    "addEventListener",
+    "enumerateDevices",
+    "data",
+    "Shaqada\x20waad\x20bilaawday",
+    "checkIn",
+    "9726baVUnN",
+    "log",
+    "BrowserMultiFormatReader",
+    "13axdwMB",
+    "Shaqada\x20waad\x20ka\x20baxday",
+    "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
+    "checkOutTimes",
+    "kind",
+    "lastEvent",
+    "outputData",
+    "environment",
+    "error",
+    "eventsdb-b6aaf.firebaseapp.com",
+    "106234anrzGp",
+    "click",
+    "nonevalid",
+    "1:995789907234:web:54edcc689b1c894594717b",
+    "video",
+    "3841196rgxAmy",
+    "split",
+    "18lAnKBA",
+    "block",
+    "filter",
+    "loader",
+    "G-J0DC7YW8J4",
+    "value",
+    "reset",
+    "eventsdb-b6aaf",
+    "ref",
+    "refresh",
+    "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js",
+    "3yudSZf",
+    "phoneNumber",
+    "forEach",
+    "200Exibjb",
+    "style",
+    "checkInTimes",
+    "2810HOexTo",
+    "loading",
+    "text",
+    "checkOut",
+    "995789907234",
+    "display",
+    "continuous",
+    "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js",
+  ];
+  _0xce9e = function () {
+    return _0x14b8be;
+  };
+  return _0xce9e();
+}
