@@ -1,0 +1,119 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f4f5f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 768px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #4caf50;
+}
+
+.input-field {
+  margin-bottom: 1rem;
+}
+
+input.form-control,
+textarea.form-control {
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #e0e0e0;
+}
+
+.notes-textarea {
+  height: 150px;
+  resize: none;
+}
+
+h2#loading {
+  font-weight: 700;
+  color: #4caf50;
+  margin-bottom: 1.5rem;
+}
+
+.scan-code {
+  margin: 1rem 0;
+}
+
+.loader {
+  border: 8px solid #f4f5f7;
+  border-top: 8px solid #4caf50;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#qr-result {
+  margin-top: 1rem;
+  color: #4caf50;
+}
+
+.lotties {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+#error {
+  color: #f44336;
+  font-weight: 700;
+  margin: 1rem 0;
+  display: none;
+}
+
+button#refresh,
+a {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background 0.3s, color 0.3s;
+}
+
+button#refresh {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+button#refresh:hover {
+  background: #43a047;
+}
+
+a {
+  color: #4caf50;
+  border: 2px solid #4caf50;
+  padding: 0.4rem 1.4rem;
+}
+
+a:hover {
+  background: #4caf50;
+  color: #fff;
+}
