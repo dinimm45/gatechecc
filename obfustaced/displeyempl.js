@@ -1,532 +1,556 @@
-const _0x6b50e = _0x21f6;
-function _0x4879() {
-  const _0x241c0b = [
-    "Error\x20creating\x20company\x20and\x20adding\x20check-in\x20location:\x20",
-    "card-body",
-    "\x20Total\x20working\x20hours\x20(current\x20month):\x20",
-    "N/A",
-    "textContent",
-    "length",
-    "lastName",
-    "innerHTML",
-    "firstName",
-    "2fudDsu",
-    "checkin-info",
-    "employersList",
-    "div",
-    "<strong>Check-in:</strong>\x20",
-    "block",
-    "eventsdb-b6aaf",
-    "checkOutTimes",
-    "sort",
-    "get",
-    "searchButton",
-    "firestore",
-    "display",
-    "workingHours",
-    "checkOutLocation",
-    "trim",
-    "7ykHfia",
-    "\x20hours",
-    "Monthly\x20Working\x20Hours\x20Record",
-    "Error\x20adding\x20new\x20check-in\x20location:\x20",
-    "resetButton",
-    "198195eHpGuM",
-    "forEach",
-    "none",
-    "toDate",
-    "\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Location:</strong>\x20",
-    "1:995789907234:web:54edcc689b1c894594717b",
-    "then",
-    "2283OXyXDY",
-    "includes",
-    "click",
-    "note-in",
-    "1436gODSuo",
-    "isArray",
-    "set",
-    "MMMM\x20YYYY",
-    "\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Location:</strong>\x20",
-    "details",
-    "checkInTime",
-    "getElementById",
-    "reverse",
-    "catch",
-    "span",
-    "exists",
-    "arrayUnion",
-    "307492EDTEFc",
-    "companyName",
-    "info-item",
-    "collection",
-    "getMonth",
-    "checkIns",
-    "<strong>Phone:</strong>\x20",
-    "995789907234",
-    "checkOutTime",
-    "Error\x20getting\x20documents:\x20",
-    "createElement",
-    "keys",
-    "employer-item",
-    "checkin-item",
-    "YYYY-MM",
-    "format",
-    "lastCheckInTime",
-    "New\x20check-in\x20location\x20successfully\x20added:\x20",
-    "890uRgzVh",
-    "card",
-    "Please\x20enter\x20the\x20name\x20of\x20the\x20new\x20check-in\x20location\x20(no\x20spaces):",
-    "addcheckpoint",
-    "eventsdb-b6aaf.firebaseapp.com",
-    "filter",
-    "className",
-    "some",
-    "note",
-    "companies",
-    "fromNow",
-    "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
-    "<strong>Last\x20check-in:</strong>\x20",
-    "LLL",
-    "working-hours",
-    "empty",
-    "push",
-    "<strong>Note\x20(Check-out):</strong>\x20",
-    "location",
-    "toLowerCase",
-    "searchEmployersInput",
-    "errorMessage",
-    "log",
-    "style",
-    "Total\x20for\x20",
-    "summary",
-    "error",
-    "note-out",
-    "employers",
-    "<strong>Check-out:</strong>\x20",
-    "value",
-    "appendChild",
-    "ads",
-    "1624260GtWGUK",
-    "showEmployersButton",
-    "card-header",
-    "getFullYear",
-    "12gSJhrt",
-    "104rZeWuS",
-    "<strong>Working\x20hours:</strong>\x20",
-    "addEventListener",
-    "initializeApp",
-    "2136384oyIHHl",
-    "phoneNumber",
-    "22608EyKOKJ",
-    "month",
-    "New\x20company\x20created\x20and\x20check-in\x20location\x20added:\x20",
-    "doc",
-    "checkInTimes",
-    "time",
-    "data",
-    "8107304BRTpNK",
-    "toFixed",
-  ];
-  _0x4879 = function () {
-    return _0x241c0b;
-  };
-  return _0x4879();
-}
-function _0x21f6(_0x4345ea, _0x26be14) {
-  const _0x4879c5 = _0x4879();
-  return (
-    (_0x21f6 = function (_0x21f6f7, _0x5f1beb) {
-      _0x21f6f7 = _0x21f6f7 - 0x148;
-      let _0x46f6f9 = _0x4879c5[_0x21f6f7];
-      return _0x46f6f9;
-    }),
-    _0x21f6(_0x4345ea, _0x26be14)
-  );
-}
-(function (_0x16f0d4, _0x2de13a) {
-  const _0x48e449 = _0x21f6,
-    _0x44bb1 = _0x16f0d4();
+const _0x2e2e1b = _0xd1bb;
+(function (_0x46b270, _0x4359b1) {
+  const _0x36842d = _0xd1bb,
+    _0x51162b = _0x46b270();
   while (!![]) {
     try {
-      const _0x576fdf =
-        (-parseInt(_0x48e449(0x1be)) / 0x1) *
-          (-parseInt(_0x48e449(0x191)) / 0x2) +
-        (-parseInt(_0x48e449(0x1ad)) / 0x3) *
-          (-parseInt(_0x48e449(0x1b1)) / 0x4) +
-        (parseInt(_0x48e449(0x1a6)) / 0x5) *
-          (parseInt(_0x48e449(0x178)) / 0x6) +
-        (parseInt(_0x48e449(0x1a1)) / 0x7) *
-          (parseInt(_0x48e449(0x186)) / 0x8) +
-        (-parseInt(_0x48e449(0x17f)) / 0x9) *
-          (-parseInt(_0x48e449(0x153)) / 0xa) +
-        parseInt(_0x48e449(0x174)) / 0xb +
-        (-parseInt(_0x48e449(0x17d)) / 0xc) *
-          (parseInt(_0x48e449(0x179)) / 0xd);
-      if (_0x576fdf === _0x2de13a) break;
-      else _0x44bb1["push"](_0x44bb1["shift"]());
-    } catch (_0x37ba53) {
-      _0x44bb1["push"](_0x44bb1["shift"]());
+      const _0x19f9ab =
+        parseInt(_0x36842d(0x1e7)) / 0x1 +
+        (parseInt(_0x36842d(0x246)) / 0x2) *
+          (parseInt(_0x36842d(0x1f4)) / 0x3) +
+        (-parseInt(_0x36842d(0x1fe)) / 0x4) *
+          (-parseInt(_0x36842d(0x24e)) / 0x5) +
+        -parseInt(_0x36842d(0x21f)) / 0x6 +
+        parseInt(_0x36842d(0x21a)) / 0x7 +
+        -parseInt(_0x36842d(0x1fd)) / 0x8 +
+        parseInt(_0x36842d(0x22b)) / 0x9;
+      if (_0x19f9ab === _0x4359b1) break;
+      else _0x51162b["push"](_0x51162b["shift"]());
+    } catch (_0x503cdc) {
+      _0x51162b["push"](_0x51162b["shift"]());
     }
   }
-})(_0x4879, 0x97742);
+})(_0x15ed, 0x7d05b);
 const firebaseConfig = {
-  apiKey: _0x6b50e(0x15e),
-  authDomain: _0x6b50e(0x157),
-  projectId: _0x6b50e(0x197),
+  apiKey: "AIzaSyD-e_171y9kifCgevAMRElGKnHghxzdM7A",
+  authDomain: _0x2e2e1b(0x1f8),
+  projectId: _0x2e2e1b(0x208),
   storageBucket: "eventsdb-b6aaf.appspot.com",
-  messagingSenderId: _0x6b50e(0x148),
-  appId: _0x6b50e(0x1ab),
-  measurementId: "G-J0DC7YW8J4",
+  messagingSenderId: _0x2e2e1b(0x20d),
+  appId: _0x2e2e1b(0x206),
+  measurementId: _0x2e2e1b(0x202),
 };
-firebase[_0x6b50e(0x17c)](firebaseConfig);
-const db = firebase[_0x6b50e(0x19c)]();
+firebase["initializeApp"](firebaseConfig);
+const db = firebase[_0x2e2e1b(0x1e9)]();
 let allEmployers = [];
-function getYearMonth(_0xd31ef9) {
-  const _0x3ac758 = _0x6b50e,
-    _0x484e91 = _0xd31ef9[_0x3ac758(0x177)](),
-    _0x94b572 = _0xd31ef9[_0x3ac758(0x1c2)]() + 0x1;
-  return _0x484e91 + "-" + (_0x94b572 < 0xa ? "0" + _0x94b572 : _0x94b572);
+document[_0x2e2e1b(0x249)](_0x2e2e1b(0x252))[_0x2e2e1b(0x1e3)](
+  _0x2e2e1b(0x240),
+  function (_0xc723a) {
+    const _0x16231d = _0x2e2e1b;
+    this[_0x16231d(0x241)] = this[_0x16231d(0x241)][_0x16231d(0x239)](
+      /\s/g,
+      ""
+    );
+  }
+),
+  document["getElementById"](_0x2e2e1b(0x252))["addEventListener"](
+    "keydown",
+    function (_0x5277e1) {
+      const _0x4f9d73 = _0x2e2e1b;
+      (_0x5277e1[_0x4f9d73(0x218)] === _0x4f9d73(0x234) ||
+        _0x5277e1["keyCode"] === 0xd) &&
+        (_0x5277e1[_0x4f9d73(0x220)](), showEmployers());
+    }
+  ),
+  document["getElementById"](_0x2e2e1b(0x215))[_0x2e2e1b(0x1e3)](
+    _0x2e2e1b(0x23e),
+    function (_0x40bef4) {
+      const _0x5db7c7 = _0x2e2e1b;
+      (_0x40bef4[_0x5db7c7(0x218)] === "Enter" ||
+        _0x40bef4[_0x5db7c7(0x243)] === 0xd) &&
+        (_0x40bef4[_0x5db7c7(0x220)](), searchEmployers());
+    }
+  );
+function getYearMonth(_0xba3378) {
+  const _0x371b13 = _0x2e2e1b,
+    _0x5bf8d4 = _0xba3378[_0x371b13(0x1fb)](),
+    _0x45a4be = _0xba3378[_0x371b13(0x23b)]() + 0x1;
+  return _0x5bf8d4 + "-" + (_0x45a4be < 0xa ? "0" + _0x45a4be : _0x45a4be);
 }
-function createAndAppendEmployers(_0x4923a4, _0x284940) {
-  const _0x5baeb6 = _0x6b50e;
-  _0x4923a4[_0x5baeb6(0x1a7)]((_0x10be49) => {
-    const _0x24d05c = _0x5baeb6,
-      _0x337799 = document[_0x24d05c(0x14b)]("li");
-    _0x337799[_0x24d05c(0x159)] = _0x24d05c(0x14d);
-    const _0x95bec4 = document[_0x24d05c(0x14b)](_0x24d05c(0x194));
-    _0x95bec4[_0x24d05c(0x159)] = _0x24d05c(0x154);
-    const _0x292685 = document[_0x24d05c(0x14b)](_0x24d05c(0x194));
-    (_0x292685[_0x24d05c(0x159)] = _0x24d05c(0x176)),
-      (_0x292685[_0x24d05c(0x18c)] =
-        _0x10be49[_0x24d05c(0x190)] + "\x20" + _0x10be49[_0x24d05c(0x18e)]),
-      _0x95bec4[_0x24d05c(0x172)](_0x292685);
-    const _0x5b1a82 = document["createElement"](_0x24d05c(0x194));
-    _0x5b1a82[_0x24d05c(0x159)] = _0x24d05c(0x189);
-    const _0x153355 = document[_0x24d05c(0x14b)](_0x24d05c(0x1bb));
-    (_0x153355["className"] = "info-item"),
-      (_0x153355["innerHTML"] = _0x24d05c(0x1c4) + _0x10be49[_0x24d05c(0x17e)]),
-      _0x5b1a82["appendChild"](_0x153355);
-    if (_0x10be49["lastCheckInTime"]) {
-      const _0x214ffb = document[_0x24d05c(0x14b)](_0x24d05c(0x1bb));
-      (_0x214ffb["className"] = _0x24d05c(0x1c0)),
-        (_0x214ffb[_0x24d05c(0x18f)] =
-          _0x24d05c(0x15f) +
-          moment(_0x10be49[_0x24d05c(0x151)][_0x24d05c(0x1a9)]())[
-            _0x24d05c(0x15d)
-          ]()),
-        _0x5b1a82[_0x24d05c(0x172)](_0x214ffb);
+function _0x15ed() {
+  const _0x35d5b4 = [
+    "G-J0DC7YW8J4",
+    "note-in",
+    "checkOutLocation",
+    "card",
+    "1:995789907234:web:54edcc689b1c894594717b",
+    "resetButton",
+    "eventsdb-b6aaf",
+    "block",
+    "LLL",
+    "appendChild",
+    "Error\x20creating\x20company\x20and\x20adding\x20check-in\x20location:\x20",
+    "995789907234",
+    "catch",
+    "<strong>Last\x20check-in:</strong>\x20",
+    "lastCheckInTime",
+    "New\x20company\x20created\x20and\x20check-in\x20location\x20added:\x20",
+    "textContent",
+    "log",
+    "push",
+    "searchEmployersInput",
+    "some",
+    "Please\x20enter\x20the\x20name\x20of\x20the\x20new\x20check-in\x20location\x20(no\x20spaces):",
+    "key",
+    "<strong>Phone:</strong>\x20",
+    "780178fmsjIU",
+    "doc",
+    "isSame",
+    "Total\x20for\x20",
+    "checkInLocation",
+    "5891706IHIdLI",
+    "preventDefault",
+    "reverse",
+    "\x20Total\x20working\x20hours\x20(current\x20month):\x20",
+    "checkIns",
+    "sort",
+    "div",
+    "details",
+    "toDate",
+    "className",
+    "companies",
+    "length",
+    "8283780IBniNO",
+    "fromNow",
+    "trim",
+    "createElement",
+    "<strong>Check-out:</strong>\x20",
+    "note",
+    "\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Location:</strong>\x20",
+    "note-out",
+    "forEach",
+    "Enter",
+    "arrayUnion",
+    "includes",
+    "click",
+    "N/A",
+    "replace",
+    "month",
+    "getMonth",
+    "style",
+    "firstName",
+    "keydown",
+    "toFixed",
+    "input",
+    "value",
+    "set",
+    "keyCode",
+    "card-header",
+    "searchButton",
+    "26bEczrT",
+    "<strong>Working\x20hours:</strong>\x20",
+    "<strong>Check-in:</strong>\x20",
+    "getElementById",
+    "filter",
+    "checkOutTime",
+    "\x20hours",
+    "working-hours",
+    "45SzIcFp",
+    "showEmployersButton",
+    "location",
+    "ads",
+    "companyName",
+    "format",
+    "employersList",
+    "then",
+    "addcheckpoint",
+    "none",
+    "checkin-item",
+    "workingHours",
+    "addEventListener",
+    "MMMM\x20YYYY",
+    "<strong>Note\x20(Check-in):</strong>\x20",
+    "checkout-info",
+    "422035lYAdED",
+    "checkOutTimes",
+    "firestore",
+    "checkInTimes",
+    "checkin-info",
+    "span",
+    "error",
+    "collection",
+    "Monthly\x20Working\x20Hours\x20Record",
+    "lastName",
+    "card-body",
+    "update",
+    "innerHTML",
+    "11409iGXnfx",
+    "keys",
+    "time",
+    "display",
+    "eventsdb-b6aaf.firebaseapp.com",
+    "toLowerCase",
+    "employer-item",
+    "getFullYear",
+    "errorMessage",
+    "2708856ozLgBS",
+    "146356PDKUPT",
+    "phoneNumber",
+    "<strong>Note\x20(Check-out):</strong>\x20",
+    "Error\x20adding\x20new\x20check-in\x20location:\x20",
+  ];
+  _0x15ed = function () {
+    return _0x35d5b4;
+  };
+  return _0x15ed();
+}
+function _0xd1bb(_0x1faed4, _0x483097) {
+  const _0x15edc0 = _0x15ed();
+  return (
+    (_0xd1bb = function (_0xd1bbd3, _0x17990d) {
+      _0xd1bbd3 = _0xd1bbd3 - 0x1dd;
+      let _0x14d4c1 = _0x15edc0[_0xd1bbd3];
+      return _0x14d4c1;
+    }),
+    _0xd1bb(_0x1faed4, _0x483097)
+  );
+}
+function createAndAppendEmployers(_0x20337e, _0x4ee024) {
+  const _0x15ab20 = _0x2e2e1b;
+  _0x20337e[_0x15ab20(0x233)]((_0x150c16) => {
+    const _0x83db49 = _0x15ab20,
+      _0x6c0aad = document["createElement"]("li");
+    _0x6c0aad["className"] = _0x83db49(0x1fa);
+    const _0x494f36 = document[_0x83db49(0x22e)](_0x83db49(0x225));
+    _0x494f36[_0x83db49(0x228)] = _0x83db49(0x205);
+    const _0x24998f = document[_0x83db49(0x22e)](_0x83db49(0x225));
+    (_0x24998f[_0x83db49(0x228)] = _0x83db49(0x244)),
+      (_0x24998f[_0x83db49(0x212)] =
+        _0x150c16["firstName"] + "\x20" + _0x150c16[_0x83db49(0x1f0)]),
+      _0x494f36[_0x83db49(0x20b)](_0x24998f);
+    const _0x6d1bae = document[_0x83db49(0x22e)](_0x83db49(0x225));
+    _0x6d1bae[_0x83db49(0x228)] = _0x83db49(0x1f1);
+    const _0x3d7f6a = document[_0x83db49(0x22e)]("span");
+    (_0x3d7f6a[_0x83db49(0x228)] = "info-item"),
+      (_0x3d7f6a[_0x83db49(0x1f3)] =
+        _0x83db49(0x219) + _0x150c16[_0x83db49(0x1ff)]),
+      _0x6d1bae[_0x83db49(0x20b)](_0x3d7f6a);
+    if (_0x150c16["lastCheckInTime"]) {
+      const _0x168f1b = document[_0x83db49(0x22e)](_0x83db49(0x1ec));
+      (_0x168f1b["className"] = "info-item"),
+        (_0x168f1b[_0x83db49(0x1f3)] =
+          _0x83db49(0x20f) +
+          moment(_0x150c16[_0x83db49(0x210)]["toDate"]())[_0x83db49(0x22c)]()),
+        _0x6d1bae[_0x83db49(0x20b)](_0x168f1b);
     }
     if (
-      Array["isArray"](_0x10be49[_0x24d05c(0x183)]) &&
-      Array[_0x24d05c(0x1b2)](_0x10be49[_0x24d05c(0x198)])
+      Array["isArray"](_0x150c16[_0x83db49(0x1ea)]) &&
+      Array["isArray"](_0x150c16[_0x83db49(0x1e8)])
     ) {
-      let _0x4aacae = 0x0;
-      const _0x6f361 = {};
+      let _0x5007da = 0x0;
+      const _0x168c0f = {};
       for (
-        let _0x3cb9db = 0x0;
-        _0x3cb9db < _0x10be49["checkInTimes"][_0x24d05c(0x18d)];
-        _0x3cb9db++
+        let _0x24f1bc = 0x0;
+        _0x24f1bc < _0x150c16[_0x83db49(0x1ea)][_0x83db49(0x22a)];
+        _0x24f1bc++
       ) {
-        const _0x407e07 =
-            _0x10be49["checkInTimes"][_0x3cb9db][_0x24d05c(0x184)][
-              _0x24d05c(0x1a9)
+        const _0xa5a9b5 =
+            _0x150c16[_0x83db49(0x1ea)][_0x24f1bc][_0x83db49(0x1f6)][
+              _0x83db49(0x227)
             ](),
-          _0x20b23d = _0x10be49[_0x24d05c(0x183)][_0x3cb9db][_0x24d05c(0x165)],
-          _0x37b224 = _0x10be49[_0x24d05c(0x198)][_0x3cb9db]
-            ? _0x10be49[_0x24d05c(0x198)][_0x3cb9db]["time"][_0x24d05c(0x1a9)]()
+          _0x469c0f = _0x150c16[_0x83db49(0x1ea)][_0x24f1bc][_0x83db49(0x250)],
+          _0x25eeb4 = _0x150c16["checkOutTimes"][_0x24f1bc]
+            ? _0x150c16[_0x83db49(0x1e8)][_0x24f1bc][_0x83db49(0x1f6)][
+                "toDate"
+              ]()
             : new Date(),
-          _0x416396 = _0x10be49[_0x24d05c(0x198)][_0x3cb9db]
-            ? _0x10be49[_0x24d05c(0x198)][_0x3cb9db][_0x24d05c(0x165)]
-            : _0x24d05c(0x18b),
-          _0x32d233 = (_0x37b224 - _0x407e07) / (0x3e8 * 0x3c * 0x3c),
-          _0x470af8 = getYearMonth(_0x407e07);
-        !_0x6f361[_0x470af8] &&
-          (_0x6f361[_0x470af8] = { workingHours: 0x0, checkIns: [] }),
-          (_0x6f361[_0x470af8][_0x24d05c(0x19e)] += _0x32d233),
-          _0x6f361[_0x470af8][_0x24d05c(0x1c3)][_0x24d05c(0x163)]({
-            checkInTime: _0x407e07,
-            checkOutTime: _0x37b224,
-            workingHours: _0x32d233,
-            checkInLocation: _0x20b23d,
-            checkOutLocation: _0x416396,
+          _0x5fc80d = _0x150c16[_0x83db49(0x1e8)][_0x24f1bc]
+            ? _0x150c16["checkOutTimes"][_0x24f1bc][_0x83db49(0x250)]
+            : _0x83db49(0x238),
+          _0x566cbe = (_0x25eeb4 - _0xa5a9b5) / (0x3e8 * 0x3c * 0x3c),
+          _0x20ad06 = getYearMonth(_0xa5a9b5);
+        !_0x168c0f[_0x20ad06] &&
+          (_0x168c0f[_0x20ad06] = { workingHours: 0x0, checkIns: [] }),
+          (_0x168c0f[_0x20ad06][_0x83db49(0x1e2)] += _0x566cbe),
+          _0x168c0f[_0x20ad06][_0x83db49(0x223)][_0x83db49(0x214)]({
+            checkInTime: _0xa5a9b5,
+            checkOutTime: _0x25eeb4,
+            workingHours: _0x566cbe,
+            checkInLocation: _0x469c0f,
+            checkOutLocation: _0x5fc80d,
           }),
-          moment(_0x407e07)["isSame"](new Date(), _0x24d05c(0x180)) &&
-            (_0x4aacae += _0x32d233);
+          moment(_0xa5a9b5)[_0x83db49(0x21c)](new Date(), _0x83db49(0x23a)) &&
+            (_0x5007da += _0x566cbe);
       }
-      const _0xf3ee9d = document[_0x24d05c(0x14b)](_0x24d05c(0x1bb));
-      (_0xf3ee9d[_0x24d05c(0x18c)] =
-        _0x24d05c(0x18a) + _0x4aacae[_0x24d05c(0x187)](0x2) + _0x24d05c(0x1a2)),
-        _0x5b1a82["appendChild"](_0xf3ee9d);
-      const _0x141efe = document[_0x24d05c(0x14b)]("details"),
-        _0x53f303 = document[_0x24d05c(0x14b)](_0x24d05c(0x16c));
-      (_0x53f303[_0x24d05c(0x18c)] = _0x24d05c(0x1a3)),
-        _0x141efe["appendChild"](_0x53f303);
-      const _0x22560a = Object[_0x24d05c(0x14c)](_0x6f361)
-        [_0x24d05c(0x199)]()
-        [_0x24d05c(0x1b9)]();
-      _0x22560a[_0x24d05c(0x1a7)]((_0x327db5) => {
-        const _0x23d750 = _0x24d05c,
-          _0x4cfa6e = _0x6f361[_0x327db5],
-          _0x309c6e = document[_0x23d750(0x14b)](_0x23d750(0x1b6)),
-          _0x5a6fcd = document["createElement"](_0x23d750(0x16c));
-        (_0x5a6fcd[_0x23d750(0x18c)] =
-          _0x23d750(0x16b) +
-          moment(_0x327db5, _0x23d750(0x14f))[_0x23d750(0x150)](
-            _0x23d750(0x1b4)
-          ) +
+      const _0x5b19f9 = document[_0x83db49(0x22e)](_0x83db49(0x1ec));
+      (_0x5b19f9[_0x83db49(0x212)] =
+        _0x83db49(0x222) + _0x5007da[_0x83db49(0x23f)](0x2) + _0x83db49(0x24c)),
+        _0x6d1bae[_0x83db49(0x20b)](_0x5b19f9);
+      const _0x34ab88 = document[_0x83db49(0x22e)](_0x83db49(0x226)),
+        _0x7afed1 = document[_0x83db49(0x22e)]("summary");
+      (_0x7afed1["textContent"] = _0x83db49(0x1ef)),
+        _0x34ab88[_0x83db49(0x20b)](_0x7afed1);
+      const _0x12a3ca = Object[_0x83db49(0x1f5)](_0x168c0f)
+        ["sort"]()
+        [_0x83db49(0x221)]();
+      _0x12a3ca["forEach"]((_0x1ba507) => {
+        const _0x3dbda3 = _0x83db49,
+          _0x36d34c = _0x168c0f[_0x1ba507],
+          _0x4137a6 = document[_0x3dbda3(0x22e)](_0x3dbda3(0x226)),
+          _0xd78ed0 = document["createElement"]("summary");
+        (_0xd78ed0[_0x3dbda3(0x212)] =
+          _0x3dbda3(0x21d) +
+          moment(_0x1ba507, "YYYY-MM")["format"](_0x3dbda3(0x1e4)) +
           ":\x20" +
-          _0x4cfa6e[_0x23d750(0x19e)]["toFixed"](0x2) +
-          _0x23d750(0x1a2)),
-          _0x309c6e[_0x23d750(0x172)](_0x5a6fcd),
-          _0x4cfa6e[_0x23d750(0x1c3)][_0x23d750(0x1a7)](
-            (_0x3e06e6, _0x3d18e3) => {
-              const _0x455e82 = _0x23d750,
-                _0x5ecb30 = document["createElement"](_0x455e82(0x194));
-              _0x5ecb30[_0x455e82(0x159)] = _0x455e82(0x14e);
-              const _0x5f8efc = document[_0x455e82(0x14b)](_0x455e82(0x194)),
-                _0x37d9b8 = document["createElement"]("div"),
-                _0xfa091f = document[_0x455e82(0x14b)](_0x455e82(0x194));
-              (_0x5f8efc[_0x455e82(0x159)] = _0x455e82(0x192)),
-                (_0x5f8efc[_0x455e82(0x18f)] =
-                  _0x455e82(0x195) +
-                  moment(_0x3e06e6[_0x455e82(0x1b7)])[_0x455e82(0x150)](
-                    _0x455e82(0x160)
+          _0x36d34c["workingHours"]["toFixed"](0x2) +
+          _0x3dbda3(0x24c)),
+          _0x4137a6[_0x3dbda3(0x20b)](_0xd78ed0),
+          _0x36d34c[_0x3dbda3(0x223)][_0x3dbda3(0x233)](
+            (_0xdca252, _0x530172) => {
+              const _0x45e6e6 = _0x3dbda3,
+                _0x525bcf = document[_0x45e6e6(0x22e)]("div");
+              _0x525bcf[_0x45e6e6(0x228)] = _0x45e6e6(0x1e1);
+              const _0x40816b = document[_0x45e6e6(0x22e)]("div"),
+                _0x2e0f68 = document["createElement"](_0x45e6e6(0x225)),
+                _0x55d1e8 = document[_0x45e6e6(0x22e)](_0x45e6e6(0x225));
+              (_0x40816b[_0x45e6e6(0x228)] = _0x45e6e6(0x1eb)),
+                (_0x40816b["innerHTML"] =
+                  _0x45e6e6(0x248) +
+                  moment(_0xdca252["checkInTime"])[_0x45e6e6(0x253)](
+                    _0x45e6e6(0x20a)
                   ) +
-                  _0x455e82(0x1b5) +
-                  _0x3e06e6["checkInLocation"]),
-                (_0x37d9b8[_0x455e82(0x159)] = "checkout-info"),
-                (_0x37d9b8[_0x455e82(0x18f)] =
-                  _0x455e82(0x170) +
-                  moment(_0x3e06e6[_0x455e82(0x149)])[_0x455e82(0x150)]("LLL") +
-                  _0x455e82(0x1aa) +
-                  _0x3e06e6[_0x455e82(0x19f)]),
-                (_0xfa091f["className"] = _0x455e82(0x161)),
-                (_0xfa091f[_0x455e82(0x18f)] =
-                  _0x455e82(0x17a) +
-                  _0x3e06e6[_0x455e82(0x19e)][_0x455e82(0x187)](0x2) +
-                  "\x20hours");
-              const _0x370cfb =
-                _0x10be49["checkInTimes"][_0x3d18e3]?.[_0x455e82(0x15b)];
-              if (_0x370cfb) {
-                const _0x35deac = document["createElement"](_0x455e82(0x194));
-                (_0x35deac[_0x455e82(0x159)] = _0x455e82(0x1b0)),
-                  (_0x35deac[_0x455e82(0x18f)] =
-                    "<strong>Note\x20(Check-in):</strong>\x20" + _0x370cfb),
-                  _0x5f8efc[_0x455e82(0x172)](_0x35deac);
+                  _0x45e6e6(0x231) +
+                  _0xdca252[_0x45e6e6(0x21e)]),
+                (_0x2e0f68[_0x45e6e6(0x228)] = _0x45e6e6(0x1e6)),
+                (_0x2e0f68[_0x45e6e6(0x1f3)] =
+                  _0x45e6e6(0x22f) +
+                  moment(_0xdca252[_0x45e6e6(0x24b)])["format"](
+                    _0x45e6e6(0x20a)
+                  ) +
+                  "\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Location:</strong>\x20" +
+                  _0xdca252[_0x45e6e6(0x204)]),
+                (_0x55d1e8["className"] = _0x45e6e6(0x24d)),
+                (_0x55d1e8[_0x45e6e6(0x1f3)] =
+                  _0x45e6e6(0x247) +
+                  _0xdca252[_0x45e6e6(0x1e2)][_0x45e6e6(0x23f)](0x2) +
+                  _0x45e6e6(0x24c));
+              const _0x512622 =
+                _0x150c16[_0x45e6e6(0x1ea)][_0x530172]?.[_0x45e6e6(0x230)];
+              if (_0x512622) {
+                const _0x14a283 = document["createElement"](_0x45e6e6(0x225));
+                (_0x14a283[_0x45e6e6(0x228)] = _0x45e6e6(0x203)),
+                  (_0x14a283[_0x45e6e6(0x1f3)] = _0x45e6e6(0x1e5) + _0x512622),
+                  _0x40816b["appendChild"](_0x14a283);
               }
-              const _0x2684db =
-                _0x10be49[_0x455e82(0x198)][_0x3d18e3]?.["note"];
-              if (_0x2684db) {
-                const _0x257bda = document[_0x455e82(0x14b)](_0x455e82(0x194));
-                (_0x257bda[_0x455e82(0x159)] = _0x455e82(0x16e)),
-                  (_0x257bda[_0x455e82(0x18f)] = _0x455e82(0x164) + _0x2684db),
-                  _0x37d9b8["appendChild"](_0x257bda);
+              const _0x55e10b =
+                _0x150c16[_0x45e6e6(0x1e8)][_0x530172]?.[_0x45e6e6(0x230)];
+              if (_0x55e10b) {
+                const _0x4fd93b = document["createElement"](_0x45e6e6(0x225));
+                (_0x4fd93b["className"] = _0x45e6e6(0x232)),
+                  (_0x4fd93b[_0x45e6e6(0x1f3)] = _0x45e6e6(0x200) + _0x55e10b),
+                  _0x2e0f68[_0x45e6e6(0x20b)](_0x4fd93b);
               }
-              _0x5ecb30["appendChild"](_0x5f8efc),
-                _0x5ecb30[_0x455e82(0x172)](_0x37d9b8),
-                _0x5ecb30[_0x455e82(0x172)](_0xfa091f),
-                _0x309c6e["appendChild"](_0x5ecb30);
+              _0x525bcf["appendChild"](_0x40816b),
+                _0x525bcf[_0x45e6e6(0x20b)](_0x2e0f68),
+                _0x525bcf[_0x45e6e6(0x20b)](_0x55d1e8),
+                _0x4137a6["appendChild"](_0x525bcf);
             }
           ),
-          _0x141efe[_0x23d750(0x172)](_0x309c6e);
+          _0x34ab88[_0x3dbda3(0x20b)](_0x4137a6);
       }),
-        _0x5b1a82[_0x24d05c(0x172)](_0x141efe);
+        _0x6d1bae[_0x83db49(0x20b)](_0x34ab88);
     }
-    _0x95bec4[_0x24d05c(0x172)](_0x5b1a82),
-      _0x337799[_0x24d05c(0x172)](_0x95bec4),
-      _0x284940[_0x24d05c(0x172)](_0x337799);
+    _0x494f36[_0x83db49(0x20b)](_0x6d1bae),
+      _0x6c0aad["appendChild"](_0x494f36),
+      _0x4ee024[_0x83db49(0x20b)](_0x6c0aad);
   });
 }
-document["getElementById"](_0x6b50e(0x156))[_0x6b50e(0x17b)](
-  _0x6b50e(0x1af),
+document["getElementById"](_0x2e2e1b(0x1df))[_0x2e2e1b(0x1e3)](
+  _0x2e2e1b(0x237),
   addCheck
 );
 function hideShowBtn() {
-  const _0x2ca192 = _0x6b50e;
-  (document[_0x2ca192(0x1b8)](_0x2ca192(0x1bf))[_0x2ca192(0x16a)][
-    _0x2ca192(0x19d)
-  ] = _0x2ca192(0x1a8)),
-    (document[_0x2ca192(0x1b8)](_0x2ca192(0x175))[_0x2ca192(0x16a)]["display"] =
-      _0x2ca192(0x1a8)),
-    (document[_0x2ca192(0x1b8)](_0x2ca192(0x167))["style"][_0x2ca192(0x19d)] =
-      _0x2ca192(0x196)),
-    (document[_0x2ca192(0x1b8)](_0x2ca192(0x19b))[_0x2ca192(0x16a)][
-      _0x2ca192(0x19d)
-    ] = _0x2ca192(0x196)),
-    (document[_0x2ca192(0x1b8)](_0x2ca192(0x1a5))["style"][_0x2ca192(0x19d)] =
-      "block"),
-    (document[_0x2ca192(0x1b8)]("addcheckpoint")[_0x2ca192(0x16a)][
-      _0x2ca192(0x19d)
-    ] = _0x2ca192(0x196));
+  const _0x115a29 = _0x2e2e1b;
+  (document[_0x115a29(0x249)](_0x115a29(0x252))[_0x115a29(0x23c)][
+    _0x115a29(0x1f7)
+  ] = _0x115a29(0x1e0)),
+    (document[_0x115a29(0x249)](_0x115a29(0x24f))["style"][_0x115a29(0x1f7)] =
+      _0x115a29(0x1e0)),
+    (document[_0x115a29(0x249)](_0x115a29(0x215))[_0x115a29(0x23c)][
+      _0x115a29(0x1f7)
+    ] = _0x115a29(0x209)),
+    (document[_0x115a29(0x249)](_0x115a29(0x245))[_0x115a29(0x23c)][
+      _0x115a29(0x1f7)
+    ] = _0x115a29(0x209)),
+    (document[_0x115a29(0x249)](_0x115a29(0x207))["style"][_0x115a29(0x1f7)] =
+      _0x115a29(0x209)),
+    (document[_0x115a29(0x249)](_0x115a29(0x1df))["style"][_0x115a29(0x1f7)] =
+      "block");
 }
 function showEmployers() {
-  const _0x57fdbd = _0x6b50e,
-    _0x9d825c = document[_0x57fdbd(0x1b8)](_0x57fdbd(0x1bf))[_0x57fdbd(0x171)][
-      _0x57fdbd(0x166)
-    ](),
-    _0x36c582 = document[_0x57fdbd(0x1b8)](_0x57fdbd(0x193));
-  _0x36c582["innerHTML"] = "";
-  const _0x54e037 = document[_0x57fdbd(0x1b8)](_0x57fdbd(0x173));
-  (_0x54e037["style"][_0x57fdbd(0x19d)] = _0x57fdbd(0x1a8)),
-    db[_0x57fdbd(0x1c1)](_0x57fdbd(0x15c))
-      [_0x57fdbd(0x182)](_0x9d825c)
-      [_0x57fdbd(0x1c1)](_0x57fdbd(0x16f))
-      [_0x57fdbd(0x19a)]()
-      [_0x57fdbd(0x1ac)]((_0x4f1197) => {
-        const _0x376062 = _0x57fdbd;
-        if (_0x4f1197[_0x376062(0x162)])
-          document["getElementById"]("errorMessage")[_0x376062(0x16a)][
+  const _0x381529 = _0x2e2e1b,
+    _0x155ac7 =
+      document[_0x381529(0x249)]("companyName")[_0x381529(0x241)][
+        _0x381529(0x1f9)
+      ](),
+    _0x4911ce = document[_0x381529(0x249)]("employersList");
+  _0x4911ce["innerHTML"] = "";
+  const _0x3a895e = document["getElementById"](_0x381529(0x251));
+  (_0x3a895e[_0x381529(0x23c)][_0x381529(0x1f7)] = _0x381529(0x1e0)),
+    db["collection"](_0x381529(0x229))
+      [_0x381529(0x21b)](_0x155ac7)
+      [_0x381529(0x1ee)]("employers")
+      ["get"]()
+      [_0x381529(0x1de)]((_0x57d678) => {
+        const _0x46451b = _0x381529;
+        if (_0x57d678["empty"])
+          document["getElementById"](_0x46451b(0x1fc))[_0x46451b(0x23c)][
             "display"
-          ] = _0x376062(0x196);
+          ] = _0x46451b(0x209);
         else {
-          const _0xd8ab71 = [];
-          _0x4f1197["forEach"]((_0x658bef) => {
-            const _0x4f2289 = _0x376062,
-              _0x4e23c3 = _0x658bef[_0x4f2289(0x185)]();
-            (_0x4e23c3["id"] = _0x658bef["id"]),
-              _0xd8ab71[_0x4f2289(0x163)](_0x4e23c3);
+          const _0x8be2cb = [];
+          _0x57d678[_0x46451b(0x233)]((_0x2745b1) => {
+            const _0xe9d968 = _0x46451b,
+              _0x2dc486 = _0x2745b1["data"]();
+            (_0x2dc486["id"] = _0x2745b1["id"]),
+              _0x8be2cb[_0xe9d968(0x214)](_0x2dc486);
           }),
-            (allEmployers = _0xd8ab71),
-            _0xd8ab71[_0x376062(0x199)]((_0x444818, _0x5a06a2) => {
-              const _0x5c854b = _0x376062;
-              if (_0x444818["lastCheckInTime"] < _0x5a06a2[_0x5c854b(0x151)])
+            (allEmployers = _0x8be2cb),
+            _0x8be2cb[_0x46451b(0x224)]((_0x596827, _0xf540fe) => {
+              const _0x23a0dd = _0x46451b;
+              if (_0x596827[_0x23a0dd(0x210)] < _0xf540fe[_0x23a0dd(0x210)])
                 return 0x1;
-              if (_0x444818["lastCheckInTime"] > _0x5a06a2[_0x5c854b(0x151)])
+              if (_0x596827[_0x23a0dd(0x210)] > _0xf540fe["lastCheckInTime"])
                 return -0x1;
               return 0x0;
             }),
-            createAndAppendEmployers(_0xd8ab71, _0x36c582),
-            (document[_0x376062(0x1b8)](_0x376062(0x168))["style"][
-              _0x376062(0x19d)
-            ] = _0x376062(0x1a8)),
-            (document["getElementById"](_0x376062(0x1bf))[_0x376062(0x16a)][
-              _0x376062(0x19d)
+            createAndAppendEmployers(_0x8be2cb, _0x4911ce),
+            (document[_0x46451b(0x249)](_0x46451b(0x1fc))["style"]["display"] =
+              _0x46451b(0x1e0)),
+            (document["getElementById"](_0x46451b(0x252))[_0x46451b(0x23c)][
+              _0x46451b(0x1f7)
             ] = "none"),
-            (document[_0x376062(0x1b8)]("showEmployersButton")["style"][
-              _0x376062(0x19d)
-            ] = _0x376062(0x1a8)),
-            (document["getElementById"](_0x376062(0x167))[_0x376062(0x16a)][
-              _0x376062(0x19d)
-            ] = _0x376062(0x196)),
-            (document[_0x376062(0x1b8)](_0x376062(0x19b))["style"][
-              _0x376062(0x19d)
-            ] = _0x376062(0x196)),
-            (document[_0x376062(0x1b8)](_0x376062(0x1a5))[_0x376062(0x16a)][
+            (document[_0x46451b(0x249)](_0x46451b(0x24f))[_0x46451b(0x23c)][
               "display"
-            ] = _0x376062(0x196)),
-            (document["getElementById"](_0x376062(0x156))[_0x376062(0x16a)][
-              _0x376062(0x19d)
-            ] = "block");
+            ] = "none"),
+            (document[_0x46451b(0x249)](_0x46451b(0x215))[_0x46451b(0x23c)][
+              "display"
+            ] = _0x46451b(0x209)),
+            (document[_0x46451b(0x249)](_0x46451b(0x245))["style"][
+              _0x46451b(0x1f7)
+            ] = _0x46451b(0x209)),
+            (document[_0x46451b(0x249)](_0x46451b(0x207))[_0x46451b(0x23c)][
+              _0x46451b(0x1f7)
+            ] = _0x46451b(0x209)),
+            (document[_0x46451b(0x249)](_0x46451b(0x1df))[_0x46451b(0x23c)][
+              _0x46451b(0x1f7)
+            ] = _0x46451b(0x209));
         }
       })
-      [_0x57fdbd(0x1ba)]((_0x2e6177) => {
-        const _0x5ca24c = _0x57fdbd;
-        console["log"](_0x5ca24c(0x14a), _0x2e6177);
+      [_0x381529(0x20e)]((_0x1abc92) => {
+        const _0x551abb = _0x381529;
+        console[_0x551abb(0x213)](
+          "Error\x20getting\x20documents:\x20",
+          _0x1abc92
+        );
       });
 }
 let isAddingCheck = ![];
 function addCheck() {
-  const _0x22cd4f = _0x6b50e;
+  const _0x181148 = _0x2e2e1b;
   if (isAddingCheck) return;
   isAddingCheck = !![];
-  let _0x4eeaba = prompt(_0x22cd4f(0x155));
-  _0x4eeaba && (_0x4eeaba = _0x4eeaba[_0x22cd4f(0x166)]()[_0x22cd4f(0x1a0)]());
-  while (_0x4eeaba !== null && _0x4eeaba[_0x22cd4f(0x1ae)]("\x20")) {
-    _0x4eeaba = prompt(_0x22cd4f(0x155));
+  let _0x1cf1b4 = prompt(_0x181148(0x217));
+  _0x1cf1b4 && (_0x1cf1b4 = _0x1cf1b4[_0x181148(0x1f9)]()[_0x181148(0x22d)]());
+  while (_0x1cf1b4 !== null && _0x1cf1b4[_0x181148(0x236)]("\x20")) {
+    _0x1cf1b4 = prompt(_0x181148(0x217));
   }
-  _0x4eeaba && (_0x4eeaba = _0x4eeaba["toLowerCase"]()["trim"]());
-  if (_0x4eeaba === null) {
+  _0x1cf1b4 && (_0x1cf1b4 = _0x1cf1b4[_0x181148(0x1f9)]()[_0x181148(0x22d)]());
+  if (_0x1cf1b4 === null) {
     isAddingCheck = ![];
     return;
   }
-  let _0x312227 = document["getElementById"](_0x22cd4f(0x1bf))["value"][
-      _0x22cd4f(0x166)
-    ](),
-    _0xea9493 = db[_0x22cd4f(0x1c1)](_0x22cd4f(0x15c))[_0x22cd4f(0x182)](
-      _0x312227
+  let _0x37221e = document[_0x181148(0x249)](_0x181148(0x252))[
+      _0x181148(0x241)
+    ][_0x181148(0x1f9)](),
+    _0x48cc5f = db[_0x181148(0x1ee)](_0x181148(0x229))[_0x181148(0x21b)](
+      _0x37221e
     );
-  _0xea9493[_0x22cd4f(0x19a)]()[_0x22cd4f(0x1ac)]((_0x1b3583) => {
-    const _0x5850a7 = _0x22cd4f;
-    _0x1b3583[_0x5850a7(0x1bc)]
-      ? _0xea9493["update"]({
+  _0x48cc5f["get"]()[_0x181148(0x1de)]((_0xc519b5) => {
+    const _0xff8820 = _0x181148;
+    _0xc519b5["exists"]
+      ? _0x48cc5f[_0xff8820(0x1f2)]({
           checkinLocations:
-            firebase[_0x5850a7(0x19c)]["FieldValue"][_0x5850a7(0x1bd)](
-              _0x4eeaba
-            ),
+            firebase["firestore"]["FieldValue"][_0xff8820(0x235)](_0x1cf1b4),
         })
-          [_0x5850a7(0x1ac)](function () {
-            const _0x1de167 = _0x5850a7;
-            console[_0x1de167(0x169)](_0x1de167(0x152), _0x4eeaba),
+          ["then"](function () {
+            const _0x39cf34 = _0xff8820;
+            console[_0x39cf34(0x213)](
+              "New\x20check-in\x20location\x20successfully\x20added:\x20",
+              _0x1cf1b4
+            ),
               showEmployers(),
               (isAddingCheck = ![]);
           })
-          [_0x5850a7(0x1ba)](function (_0xa1a194) {
-            const _0x51d525 = _0x5850a7;
-            console[_0x51d525(0x16d)](_0x51d525(0x1a4), _0xa1a194),
+          [_0xff8820(0x20e)](function (_0x4aeb23) {
+            const _0x21054b = _0xff8820;
+            console["error"](_0x21054b(0x201), _0x4aeb23),
               (isAddingCheck = ![]);
           })
-      : _0xea9493[_0x5850a7(0x1b3)]({ checkinLocations: [_0x4eeaba] })
-          [_0x5850a7(0x1ac)](function () {
-            const _0x233a69 = _0x5850a7;
-            console["log"](_0x233a69(0x181), _0x4eeaba),
+      : _0x48cc5f[_0xff8820(0x242)]({ checkinLocations: [_0x1cf1b4] })
+          [_0xff8820(0x1de)](function () {
+            const _0x175d5f = _0xff8820;
+            console[_0x175d5f(0x213)](_0x175d5f(0x211), _0x1cf1b4),
               showEmployers(),
               (isAddingCheck = ![]);
           })
-          [_0x5850a7(0x1ba)](function (_0x218312) {
-            const _0x308913 = _0x5850a7;
-            console[_0x308913(0x16d)](_0x308913(0x188), _0x218312),
+          [_0xff8820(0x20e)](function (_0x24c964) {
+            const _0x38418b = _0xff8820;
+            console[_0x38418b(0x1ed)](_0x38418b(0x20c), _0x24c964),
               (isAddingCheck = ![]);
           });
   });
 }
 function searchEmployers() {
-  const _0x8cdc73 = _0x6b50e,
-    _0x2c76aa = document[_0x8cdc73(0x1b8)]("searchEmployersInput")[
-      _0x8cdc73(0x171)
-    ][_0x8cdc73(0x166)](),
-    _0x1b1e9b = document["getElementById"](_0x8cdc73(0x193));
-  _0x1b1e9b[_0x8cdc73(0x18f)] = "";
-  const _0x278a66 = allEmployers[_0x8cdc73(0x158)]((_0x1cf814) => {
-    const _0x5531d1 = _0x8cdc73,
-      _0xecd3bc = _0x1cf814[_0x5531d1(0x183)][_0x5531d1(0x15a)](
-        (_0x34be68, _0x27fb6d) => {
-          const _0x22a79f = _0x5531d1,
-            _0x5c0ff2 = _0x34be68[_0x22a79f(0x165)][_0x22a79f(0x166)](),
-            _0x4a7d6f =
-              _0x1cf814[_0x22a79f(0x198)][_0x27fb6d]?.[_0x22a79f(0x165)]?.[
-                _0x22a79f(0x166)
+  const _0x3659cf = _0x2e2e1b,
+    _0x1ef488 = document["getElementById"](_0x3659cf(0x215))[_0x3659cf(0x241)][
+      _0x3659cf(0x1f9)
+    ](),
+    _0x561237 = document[_0x3659cf(0x249)]("employersList");
+  _0x561237[_0x3659cf(0x1f3)] = "";
+  const _0xe4447f = allEmployers[_0x3659cf(0x24a)]((_0x5d76f0) => {
+    const _0x19e299 = _0x3659cf,
+      _0x402136 = _0x5d76f0[_0x19e299(0x1ea)][_0x19e299(0x216)](
+        (_0x7376e4, _0x438821) => {
+          const _0x18fde4 = _0x19e299,
+            _0x37e242 = _0x7376e4[_0x18fde4(0x250)][_0x18fde4(0x1f9)](),
+            _0x5dcff1 =
+              _0x5d76f0["checkOutTimes"][_0x438821]?.[_0x18fde4(0x250)]?.[
+                _0x18fde4(0x1f9)
               ]() || "";
           return (
-            _0x5c0ff2[_0x22a79f(0x1ae)](_0x2c76aa) ||
-            _0x4a7d6f[_0x22a79f(0x1ae)](_0x2c76aa)
+            _0x37e242[_0x18fde4(0x236)](_0x1ef488) ||
+            _0x5dcff1[_0x18fde4(0x236)](_0x1ef488)
           );
         }
       );
     return (
-      (_0x1cf814["firstName"][_0x5531d1(0x166)]() +
+      (_0x5d76f0[_0x19e299(0x23d)]["toLowerCase"]() +
         "\x20" +
-        _0x1cf814[_0x5531d1(0x18e)][_0x5531d1(0x166)]())[_0x5531d1(0x1ae)](
-        _0x2c76aa
+        _0x5d76f0["lastName"][_0x19e299(0x1f9)]())[_0x19e299(0x236)](
+        _0x1ef488
       ) ||
-      _0x1cf814["firstName"]["toLowerCase"]()[_0x5531d1(0x1ae)](_0x2c76aa) ||
-      _0x1cf814["lastName"][_0x5531d1(0x166)]()[_0x5531d1(0x1ae)](_0x2c76aa) ||
-      _0x1cf814[_0x5531d1(0x17e)]["includes"](_0x2c76aa) ||
-      _0xecd3bc
+      _0x5d76f0[_0x19e299(0x23d)]["toLowerCase"]()["includes"](_0x1ef488) ||
+      _0x5d76f0[_0x19e299(0x1f0)]
+        [_0x19e299(0x1f9)]()
+        [_0x19e299(0x236)](_0x1ef488) ||
+      _0x5d76f0[_0x19e299(0x1ff)][_0x19e299(0x236)](_0x1ef488) ||
+      _0x402136
     );
   });
-  createAndAppendEmployers(_0x278a66, _0x1b1e9b),
-    _0x278a66[_0x8cdc73(0x18d)] === 0x0
-      ? (document[_0x8cdc73(0x1b8)](_0x8cdc73(0x168))[_0x8cdc73(0x16a)][
-          _0x8cdc73(0x19d)
-        ] = _0x8cdc73(0x196))
-      : (document[_0x8cdc73(0x1b8)](_0x8cdc73(0x168))[_0x8cdc73(0x16a)][
-          _0x8cdc73(0x19d)
-        ] = _0x8cdc73(0x1a8));
+  createAndAppendEmployers(_0xe4447f, _0x561237),
+    _0xe4447f["length"] === 0x0
+      ? (document[_0x3659cf(0x249)](_0x3659cf(0x1fc))[_0x3659cf(0x23c)][
+          _0x3659cf(0x1f7)
+        ] = "block")
+      : (document[_0x3659cf(0x249)](_0x3659cf(0x1fc))[_0x3659cf(0x23c)][
+          _0x3659cf(0x1f7)
+        ] = "none");
 }
 function reset() {
-  const _0x5c1de6 = _0x6b50e,
-    _0x3214bd = document[_0x5c1de6(0x1b8)](_0x5c1de6(0x193));
-  (_0x3214bd[_0x5c1de6(0x18f)] = ""),
-    createAndAppendEmployers(allEmployers, _0x3214bd),
-    (document["getElementById"](_0x5c1de6(0x167))[_0x5c1de6(0x171)] = "");
+  const _0x18fb11 = _0x2e2e1b,
+    _0x350689 = document[_0x18fb11(0x249)](_0x18fb11(0x1dd));
+  (_0x350689[_0x18fb11(0x1f3)] = ""),
+    createAndAppendEmployers(allEmployers, _0x350689),
+    (document[_0x18fb11(0x249)]("searchEmployersInput")[_0x18fb11(0x241)] = "");
 }
