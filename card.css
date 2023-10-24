@@ -1,0 +1,183 @@
+:root {
+  --primary-color: #ff5757;
+  --secondary-color: #333;
+  --bg-color: #f5f7fa;
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --input-bg-color: #ffffff;
+}
+
+body {
+  font-size: 1.1rem;
+  background-color: var(--bg-color);
+  padding: 2% 10%;
+}
+
+.inputs-container {
+  background-color: var(--input-bg-color);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  margin-bottom: 5px;
+
+  /* Flexbox styles to center items */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.range-container {
+  background-color: var(--input-bg-color);
+  padding: 30px 40px;
+  /* Increased padding */
+  border-radius: 15px;
+  /* Larger border radius for a more modern look */
+  box-shadow: var(--box-shadow);
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  /* Stacking child elements vertically */
+  align-items: center;
+  gap: 15px;
+  /* Spacing between child elements */
+}
+
+.range-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  /* Making the label bold for hierarchy */
+  margin-bottom: 10px;
+  /* Spacing before the range input */
+}
+
+.range-slider {
+  width: 100%;
+  /* Making the range input full width */
+  margin-bottom: 10px;
+  /* Spacing after the range input */
+}
+
+.range-count,
+.cost-count {
+  font-size: 1rem;
+  /* Adjusting the size */
+  color: var(--secondary-color);
+}
+
+.range-value,
+.cost-value {
+  color: var(--primary-color);
+  font-weight: bold;
+  /* Making the value stand out */
+}
+
+.custom-file-upload {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: darken(var(--primary-color), 10%);
+}
+
+.card-preview {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+  position: relative;
+}
+
+.qrcode-container {
+  max-width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+
+#qrcode {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+button.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: darken(var(--primary-color), 10%);
+}
+
+.card-preview {
+  background-color: #fff;
+  padding: 120px 60px;
+  /* Already modified in your code */
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 30px;
+  height: 550px;
+  /* Defining a specific height for the card */
+  width: 300px;
+  /* Making the width smaller than height */
+  margin: 0 auto;
+  /* Centering the card */
+}
+
+.qrcode-container {
+  max-width: 270px;
+  /* Adjusted width to fit within the card */
+  max-height: 450px;
+  /* Height to fit within the card */
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#qrcode {
+  width: 90%;
+  /* Adjusted width to fit within the padding */
+  height: auto;
+  max-height: 600px;
+  /* Adjusted max height to fit within the container */
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 2% 5%;
+    /* Reduced side padding on small screens */
+  }
+
+  .card-preview {
+    padding: 60px 30px;
+    /* Reduced padding on small screens */
+    height: auto;
+    /* Let the height adjust automatically */
+    width: 100%;
+    /* Use full width on small screens */
+  }
+}
+
+@media (max-width: 768px) {
+  input,
+  button,
+  .btn {
+    width: 100%;
+  }
+}
