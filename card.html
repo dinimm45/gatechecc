@@ -16,37 +16,12 @@
     <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0"></script>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="card.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap library -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-
-
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <a class="navbar-brand" href="index.html">
-            <img src="logo.png" alt="Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
 </head>
 
 <body>
@@ -58,10 +33,15 @@
         </div>
         <div class="range-container">
             <label for="vol" class="range-label">How many tickets would you like?</label>
-            <input type="range" id="vol" name="vol" min="0" max="200" v-model="rangeValue" class="range-slider">
+            <input type="range" id="vol" name="vol" min="0" max="200" v-model="rangeValue" :disabled="buttonClicked"
+                class="range-slider">
             <p class="range-count">Tickets selected: <span class="range-value">{{ rangeValue }}</span></p>
+            <p class="cost-count">Total cost: $ <span class="cost-value">{{ calculateCost() }}</span></p>
         </div>
-
+        <div class="inputs-container">
+            <label for="eventDate">Select the event date:</label>
+            <input type="date" id="eventDate" v-model="eventDate">
+        </div>
 
         <div class="inputs-container">
             <label for="imageFile" class="custom-file-upload">
@@ -70,26 +50,19 @@
             <input type="file" id="imageFile" ref="file" @change="handleFileUpload" style="display: none;" />
         </div>
         <div class="card card-preview" :style="cardStyle">
-            <div class="qrcode-container p-3 d-flex align-items-end justify-content-bottom">
+            <div class="qrcode-container">
                 <div id="qrcode"></div>
-                <!-- <p :style="qrtextStyle">{{ qrtext }}</p> -->
             </div>
         </div>
         <div class="inputs-container">
-            <button class="btn btn-primary" @click="generateQRCode" :disabled="isButtonDisabled">Create your
-                invitations</button>
+            <div id="paypal-button"></div>
+            <button v-if="!buttonClicked" class="btn btn-primary" @click="generateQRCode" :disabled="isButtonDisabled">
+                Pay and Create your invitations
+            </button>
         </div>
     </div>
-    <!-- START ADVERTISER: Aliexpress EU from awin.com -->
-    <div class="bottom-banner py-3 text-center">
-        <a rel="sponsored" href="https://www.awin1.com/cread.php?s=3057676&v=21887&q=429842&r=1019293">
-        </a>
-    </div>
-    <footer class="footer">
-        <div class="containerr">
-            <p>© 2023 Gatechecc. All Rights Reserved</p>
-        </div>
-    </footer>
+
+
 
 
 
@@ -99,7 +72,8 @@
     <button id="download" @click="downloadCards" style="display: none;">Download Cards</button>
 
 
-
+    <script
+        src="https://www.paypal.com/sdk/js?client-id=Adfw3Vgak-0i4rbynjwFACFprC9ELzXCmUXmty6jWtJH7pDYJ96V_KL445Bj_1OithC7IErrzsgV8qKb"></script>
     <script src="obfustaced/card.js"> </script>
 
 
