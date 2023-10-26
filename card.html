@@ -49,11 +49,22 @@
             </label>
             <input type="file" id="imageFile" ref="file" @change="handleFileUpload" style="display: none;" />
         </div>
-        <div class="card card-preview" :style="cardStyle">
+        <div class="card card-preview"
+            :style="{...cardStyle, backgroundImage: 'url(' + previewImage + ')', backgroundSize: 'cover'}">
             <div class="qrcode-container">
                 <div id="qrcode"></div>
             </div>
         </div>
+
+
+        <div class="inputs-container">
+            <input type="text" placeholder="Enter Promotion Code" v-model="promotionCode" />
+            <button class="btn btn-primary" @click="checkPromoCode">Apply</button>
+            <p class="promo-feedback" :class="{ 'valid': discount, 'invalid': promoChecked && !discount }">{{
+                promoFeedback }}
+            </p>
+        </div>
+
         <div class="inputs-container">
             <div id="paypal-button"></div>
             <button v-if="!buttonClicked" class="btn btn-primary" @click="generateQRCode" :disabled="isButtonDisabled">
@@ -74,7 +85,7 @@
 
     <script
         src="https://www.paypal.com/sdk/js?client-id=Adfw3Vgak-0i4rbynjwFACFprC9ELzXCmUXmty6jWtJH7pDYJ96V_KL445Bj_1OithC7IErrzsgV8qKb"></script>
-    <script src="obfustaced/card.js"> </script>
+    <script src="js/card.js"> </script>
 
 
 </body>
