@@ -38,6 +38,27 @@ body {
   width: 100%;
   margin-bottom: 10px;
 }
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #2f3542;
+}
+
+input[type="date"]:hover,
+input[type="date"]:focus {
+  border-color: #ff5757;
+  outline: none;
+}
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #2f3542;
+}
 
 .range-count,
 .cost-count {
