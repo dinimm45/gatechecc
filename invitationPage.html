@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: #FFFFFF;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #d64545;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .option {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            color: #FFFFFF;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .option:hover {
+            transform: scale(1.05);
+        }
+
+        .option:nth-child(1) {
+            background-image: url('images/cardinvite.jpg');
+        }
+
+        .option:nth-child(2) {
+            background-image: url('images/event.jpg');
+        }
+
+        .option-content {
+            z-index: 1;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Unleash Your Creativity</h2>
+        <p class="intro">Craft the perfect invitation or tickets, whether you have a design in mind or need inspiration.
+        </p>
+
+        <!-- SVG of woman designing -->
+        <img src="images/creative.svg" alt="Creative Woman Designing" style="max-width: 30%; margin-bottom: 20px;">
+
+        <div class="options">
+            <a href="mailto:dinimm45@gmail.com?subject=Invitation Design Request" class="option">
+                <div class="option-content">
+                    <h>Design dilemmas?</h>
+                    <p>Contact us and we'll bring your vision to life</p>
+                </div>
+            </a>
+            <a href="card.html" class="option">
+                <div class="option-content">
+                    <h>Got a design?</h>
+                    <p> Upload and receive it within short time.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
